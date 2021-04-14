@@ -7,8 +7,7 @@ const RAW_HEROES = require('../../raw/heroes.json');
 const RAW_PETS = require('../../raw/pets.json');
 const RAW_BUILDINGS = require('../../raw/buildings.json');
 
-const RAW_TEXTS = require('../../raw/texts.json');
-const RAW_RESOURCES = require('../../raw/resources.json');
+const { getResourceName, getTextValue } = require('../utils');
 
 const { maxTH, maxBH } = require('../../config.json');
 
@@ -173,20 +172,6 @@ function _parseStats(inputItems, type) {
 	});
 
 	return formattedOutput;
-}
-
-function getTextValue(id) {
-	const found = RAW_TEXTS.find(field => field.TID === id);
-	return found
-		? found.EN
-		: id;
-}
-
-function getResourceName(id) {
-	const resource = RAW_RESOURCES.find(field => field.Name === id);
-	return resource
-		? getTextValue(resource.AltTID ?? resource.TID)
-		: id;
 }
 
 function formatUpdateTime(timeH, timeM) {

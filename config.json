@@ -1,5 +1,8 @@
 {
-	"upgradeStats": true,
+	"parser": {
+		"upgradeStats": true,
+		"superTroops": true
+	},
 	"maxTH": 14,
 	"maxBH": 9
 }

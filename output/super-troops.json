@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Super Barbarian",
+    "original": "Barbarian",
+    "minOriginalLevel": 8,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000
+  },
+  {
+    "name": "Sneaky Goblin",
+    "original": "Goblin",
+    "minOriginalLevel": 7,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000
+  },
+  {
+    "name": "Super Giant",
+    "original": "Giant",
+    "minOriginalLevel": 9,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000
+  },
+  {
+    "name": "Super Wall Breaker",
+    "original": "Wall Breaker",
+    "minOriginalLevel": 7,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000
+  },
+  {
+    "name": "Super Archer",
+    "original": "Archer",
+    "minOriginalLevel": 8,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000
+  },
+  {
+    "name": "Super Witch",
+    "original": "Witch",
+    "minOriginalLevel": 5,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000
+  },
+  {
+    "name": "Inferno Dragon",
+    "original": "Baby Dragon",
+    "minOriginalLevel": 6,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000
+  },
+  {
+    "name": "Super Valkyrie",
+    "original": "Valkyrie",
+    "minOriginalLevel": 7,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000
+  },
+  {
+    "name": "Super Minion",
+    "original": "Minion",
+    "minOriginalLevel": 8,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000
+  },
+  {
+    "name": "Super Wizard",
+    "original": "Wizard",
+    "minOriginalLevel": 9,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000
+  },
+  {
+    "name": "Ice Hound",
+    "original": "Lava Hound",
+    "minOriginalLevel": 5,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000
+  }
+]
