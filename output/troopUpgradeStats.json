@@ -3,7 +3,7 @@
     "name": "Barbarian",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 1,
       "cost": 100,
@@ -23,7 +23,7 @@
     "name": "Archer",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 2,
       "cost": 500,
@@ -43,7 +43,7 @@
     "name": "Goblin",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 2,
       "cost": 5000,
@@ -63,7 +63,7 @@
     "name": "Giant",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 2,
       "cost": 2500,
@@ -83,7 +83,7 @@
     "name": "Wall Breaker",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 3,
       "cost": 10000,
@@ -103,7 +103,7 @@
     "name": "Balloon",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 4,
       "cost": 80000,
@@ -123,7 +123,7 @@
     "name": "Wizard",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 5,
       "cost": 240000,
@@ -143,7 +143,7 @@
     "name": "Healer",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 6,
       "cost": 700000,
@@ -163,7 +163,7 @@
     "name": "Dragon",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 7,
       "cost": 1000000,
@@ -183,7 +183,7 @@
     "name": "P.E.K.K.A",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 8,
       "cost": 1500000,
@@ -203,7 +203,7 @@
     "name": "Minion",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 7,
       "cost": 300000,
@@ -223,7 +223,7 @@
     "name": "Hog Rider",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 7,
       "cost": 600000,
@@ -243,7 +243,7 @@
     "name": "Valkyrie",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 8,
       "cost": 900000,
@@ -263,7 +263,7 @@
     "name": "Golem",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 8,
       "cost": 1300000,
@@ -283,7 +283,7 @@
     "name": "Witch",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 9,
       "cost": 2000000,
@@ -303,7 +303,7 @@
     "name": "Lava Hound",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 9,
       "cost": 2500000,
@@ -323,7 +323,7 @@
     "name": "Bowler",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 10,
       "cost": 3000000,
@@ -343,7 +343,7 @@
     "name": "Baby Dragon",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 9,
       "cost": 2000000,
@@ -363,7 +363,7 @@
     "name": "Miner",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 10,
       "cost": 3000000,
@@ -383,7 +383,7 @@
     "name": "Raged Barbarian",
     "village": "builderBase",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 1,
       "cost": 1000,
@@ -403,7 +403,7 @@
     "name": "Sneaky Archer",
     "village": "builderBase",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 2,
       "cost": 4000,
@@ -423,7 +423,7 @@
     "name": "Beta Minion",
     "village": "builderBase",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 3,
       "cost": 25000,
@@ -443,7 +443,7 @@
     "name": "Boxer Giant",
     "village": "builderBase",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 3,
       "cost": 10000,
@@ -463,7 +463,7 @@
     "name": "Bomber",
     "village": "builderBase",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 4,
       "cost": 100000,
@@ -483,7 +483,7 @@
     "name": "Super P.E.K.K.A",
     "village": "builderBase",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 8,
       "cost": 1500000,
@@ -503,7 +503,7 @@
     "name": "Cannon Cart",
     "village": "builderBase",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 5,
       "cost": 300000,
@@ -523,7 +523,7 @@
     "name": "Drop Ship",
     "village": "builderBase",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 7,
       "cost": 1000000,
@@ -543,7 +543,7 @@
     "name": "Baby Dragon",
     "village": "builderBase",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 4,
       "cost": 150000,
@@ -563,7 +563,7 @@
     "name": "Night Witch",
     "village": "builderBase",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 6,
       "cost": 500000,
@@ -583,7 +583,7 @@
     "name": "Wall Wrecker",
     "village": "home",
     "category": "troop",
-    "subcategory": "siege",
+    "subCategory": "siege",
     "unlock": {
       "hall": 12,
       "cost": 7500000,
@@ -603,7 +603,7 @@
     "name": "Battle Blimp",
     "village": "home",
     "category": "troop",
-    "subcategory": "siege",
+    "subCategory": "siege",
     "unlock": {
       "hall": 12,
       "cost": 9000000,
@@ -623,7 +623,7 @@
     "name": "Yeti",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 12,
       "cost": 5000000,
@@ -643,7 +643,7 @@
     "name": "Ice Golem",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 11,
       "cost": 4000000,
@@ -663,7 +663,7 @@
     "name": "Electro Dragon",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 11,
       "cost": 4000000,
@@ -683,7 +683,7 @@
     "name": "Stone Slammer",
     "village": "home",
     "category": "troop",
-    "subcategory": "siege",
+    "subCategory": "siege",
     "unlock": {
       "hall": 12,
       "cost": 10500000,
@@ -703,7 +703,7 @@
     "name": "Hog Glider",
     "village": "builderBase",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 9,
       "cost": 2000000,
@@ -723,7 +723,7 @@
     "name": "Siege Barracks",
     "village": "home",
     "category": "troop",
-    "subcategory": "siege",
+    "subCategory": "siege",
     "unlock": {
       "hall": 13,
       "cost": 14500000,
@@ -743,7 +743,7 @@
     "name": "Headhunter",
     "village": "home",
     "category": "troop",
-    "subcategory": "troop",
+    "subCategory": "troop",
     "unlock": {
       "hall": 12,
       "cost": 7500000,
@@ -763,7 +763,7 @@
     "name": "Log Launcher",
     "village": "home",
     "category": "troop",
-    "subcategory": "siege",
+    "subCategory": "siege",
     "unlock": {
       "hall": 13,
       "cost": 16000000,
@@ -783,7 +783,7 @@
     "name": "Lightning Spell",
     "village": "home",
     "category": "spell",
-    "subcategory": "spell",
+    "subCategory": "spell",
     "unlock": {
       "hall": 5,
       "cost": 200000,
@@ -803,7 +803,7 @@
     "name": "Healing Spell",
     "village": "home",
     "category": "spell",
-    "subcategory": "spell",
+    "subCategory": "spell",
     "unlock": {
       "hall": 6,
       "cost": 400000,
@@ -823,7 +823,7 @@
     "name": "Rage Spell",
     "village": "home",
     "category": "spell",
-    "subcategory": "spell",
+    "subCategory": "spell",
     "unlock": {
       "hall": 7,
       "cost": 800000,
@@ -843,7 +843,7 @@
     "name": "Jump Spell",
     "village": "home",
     "category": "spell",
-    "subcategory": "spell",
+    "subCategory": "spell",
     "unlock": {
       "hall": 9,
       "cost": 1200000,
@@ -863,7 +863,7 @@
     "name": "Freeze Spell",
     "village": "home",
     "category": "spell",
-    "subcategory": "spell",
+    "subCategory": "spell",
     "unlock": {
       "hall": 9,
       "cost": 1200000,
@@ -883,7 +883,7 @@
     "name": "Poison Spell",
     "village": "home",
     "category": "spell",
-    "subcategory": "spell",
+    "subCategory": "spell",
     "unlock": {
       "hall": 8,
       "cost": 250000,
@@ -903,7 +903,7 @@
     "name": "Earthquake Spell",
     "village": "home",
     "category": "spell",
-    "subcategory": "spell",
+    "subCategory": "spell",
     "unlock": {
       "hall": 8,
       "cost": 500000,
@@ -923,7 +923,7 @@
     "name": "Haste Spell",
     "village": "home",
     "category": "spell",
-    "subcategory": "spell",
+    "subCategory": "spell",
     "unlock": {
       "hall": 9,
       "cost": 1000000,
@@ -943,7 +943,7 @@
     "name": "Clone Spell",
     "village": "home",
     "category": "spell",
-    "subcategory": "spell",
+    "subCategory": "spell",
     "unlock": {
       "hall": 10,
       "cost": 2400000,
@@ -963,7 +963,7 @@
     "name": "Skeleton Spell",
     "village": "home",
     "category": "spell",
-    "subcategory": "spell",
+    "subCategory": "spell",
     "unlock": {
       "hall": 9,
       "cost": 2000000,
@@ -983,7 +983,7 @@
     "name": "Bat Spell",
     "village": "home",
     "category": "spell",
-    "subcategory": "spell",
+    "subCategory": "spell",
     "unlock": {
       "hall": 10,
       "cost": 3000000,
@@ -1003,7 +1003,7 @@
     "name": "Invisibility Spell",
     "village": "home",
     "category": "spell",
-    "subcategory": "spell",
+    "subCategory": "spell",
     "unlock": {
       "hall": 11,
       "cost": 4800000,
@@ -1023,7 +1023,7 @@
     "name": "Barbarian King",
     "village": "home",
     "category": "hero",
-    "subcategory": "hero",
+    "subCategory": "hero",
     "unlock": {
       "hall": 7,
       "cost": 5000,
@@ -1043,7 +1043,7 @@
     "name": "Archer Queen",
     "village": "home",
     "category": "hero",
-    "subcategory": "hero",
+    "subCategory": "hero",
     "unlock": {
       "hall": 9,
       "cost": 10000,
@@ -1063,7 +1063,7 @@
     "name": "Grand Warden",
     "village": "home",
     "category": "hero",
-    "subcategory": "hero",
+    "subCategory": "hero",
     "unlock": {
       "hall": 11,
       "cost": 2000000,
@@ -1083,7 +1083,7 @@
     "name": "Battle Machine",
     "village": "builderBase",
     "category": "hero",
-    "subcategory": "hero",
+    "subCategory": "hero",
     "unlock": {
       "hall": 5,
       "cost": 900000,
@@ -1103,7 +1103,7 @@
     "name": "Royal Champion",
     "village": "home",
     "category": "hero",
-    "subcategory": "hero",
+    "subCategory": "hero",
     "unlock": {
       "hall": 13,
       "cost": 120000,
@@ -1123,7 +1123,7 @@
     "name": "L.A.S.S.I",
     "village": "home",
     "category": "troop",
-    "subcategory": "pet",
+    "subCategory": "pet",
     "unlock": {
       "hall": 14,
       "cost": 15000000,
@@ -1143,7 +1143,7 @@
     "name": "Mighty Yak",
     "village": "home",
     "category": "troop",
-    "subcategory": "pet",
+    "subCategory": "pet",
     "unlock": {
       "hall": 14,
       "cost": 18500000,
@@ -1163,7 +1163,7 @@
     "name": "Electro Owl",
     "village": "home",
     "category": "troop",
-    "subcategory": "pet",
+    "subCategory": "pet",
     "unlock": {
       "hall": 14,
       "cost": 17500000,
@@ -1183,7 +1183,7 @@
     "name": "Unicorn",
     "village": "home",
     "category": "troop",
-    "subcategory": "pet",
+    "subCategory": "pet",
     "unlock": {
       "hall": 14,
       "cost": 19500000,

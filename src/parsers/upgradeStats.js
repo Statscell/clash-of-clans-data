@@ -132,7 +132,7 @@ function _parseStats(inputItems, type) {
 				: type === TYPES.SPELLS
 					? 'spell'
 					: 'troop';
-			const subcategory = [TYPES.TROOPS, TYPES.PETS].includes(type)
+			const subCategory = [TYPES.TROOPS, TYPES.PETS].includes(type)
 				? unlockValues.building === 'Workshop'
 					? 'siege'
 					: unlockValues.building === 'Pet House'
@@ -146,7 +146,7 @@ function _parseStats(inputItems, type) {
 				name: getTextValue(character.TID),
 				village,
 				category,
-				subcategory,
+				subCategory,
 				unlock: unlockValues,
 				upgrade: {
 					cost: [upgradeCost],
