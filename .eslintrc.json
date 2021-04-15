@@ -18,7 +18,7 @@
 		"consistent-return": "error",
 		"no-multi-str": "warn",
 		"require-await": "warn",
-		"array-element-newline": ["error", "always"],
+		"array-element-newline": ["error", { "multiline": true }],
 		"brace-style": ["error", "1tbs", { "allowSingleLine": true }],
 		"eol-last": "error",
 		"multiline-ternary": "error",

@@ -132,8 +132,7 @@ function _parseStats(inputItems, type) {
 				: type === TYPES.SPELLS
 					? 'spell'
 					: 'troop';
-			const subcategory = [TYPES.TROOPS,
-				TYPES.PETS].includes(type)
+			const subcategory = [TYPES.TROOPS, TYPES.PETS].includes(type)
 				? unlockValues.building === 'Workshop'
 					? 'siege'
 					: unlockValues.building === 'Pet House'
