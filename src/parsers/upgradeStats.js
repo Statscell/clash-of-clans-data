@@ -127,16 +127,27 @@ function _parseStats(inputItems, type) {
 			validCharacter.name = character.Name;
 			validCharacter.village = village;
 
+			const category = type === TYPES.HEROES
+				? 'hero'
+				: type === TYPES.SPELLS
+					? 'spell'
+					: 'troop';
+			const subcategory = [TYPES.TROOPS,
+				TYPES.PETS].includes(type)
+				? unlockValues.building === 'Workshop'
+					? 'siege'
+					: unlockValues.building === 'Pet House'
+						? 'pet'
+						: 'troop'
+				: category;
+
 			// Adding info
 			outputList.push({
 				_name: character.Name,
 				name: getTextValue(character.TID),
 				village,
-				type: type === TYPES.HEROES
-					? 'hero'
-					: type === TYPES.SPELLS
-						? 'spell'
-						: 'troop',
+				category,
+				subcategory,
 				unlock: unlockValues,
 				upgrade: {
 					cost: [upgradeCost],
