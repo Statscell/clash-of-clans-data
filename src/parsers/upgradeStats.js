@@ -68,7 +68,8 @@ function _parseStats(inputItems, type) {
 			cost: 0,
 			time: 0,
 			resource: '',
-			building: ''
+			building: '',
+			buildingLevel: 0
 		};
 
 		// handling different character types
@@ -80,6 +81,7 @@ function _parseStats(inputItems, type) {
 				unlockValues.time = formatUnlockTime(heroAltar.BuildTimeD, heroAltar.BuildTimeH, heroAltar.BuildTimeM, heroAltar.BuildTimeS);
 				unlockValues.resource = getResourceName(heroAltar.BuildResource);
 				unlockValues.building = getTextValue(heroAltar.TID);
+				unlockValues.buildingLevel = 1;
 			}
 		} else {
 			const productionBuildingType = type === TYPES.SPELLS
@@ -102,6 +104,7 @@ function _parseStats(inputItems, type) {
 				unlockValues.resource = getResourceName(_buildLvl1.BuildResource);
 				unlockValues.building = getTextValue(_buildLvl1.TID);
 				unlockValues.hall = _build.TownHallLevel || _buildLvl1.TownHallLevel;
+				unlockValues.buildingLevel = _build.BuildingLevel || _buildLvl1.BuildingLevel;
 			}
 
 			// Getting required TH level for current character level
