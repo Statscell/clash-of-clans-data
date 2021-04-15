@@ -132,6 +132,11 @@ function _parseStats(inputItems, type) {
 				_name: character.Name,
 				name: getTextValue(character.TID),
 				village,
+				type: type === TYPES.HEROES
+					? 'hero'
+					: type === TYPES.SPELLS
+						? 'spell'
+						: 'troop',
 				unlock: unlockValues,
 				upgrade: {
 					cost: [upgradeCost],
