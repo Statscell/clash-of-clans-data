@@ -4,7 +4,7 @@ const formatJson = require('json-format');
 const RAW_CHARACTERS = require('../../raw/characters.json');
 const RAW_SUPER_TROOPS = require('../../raw/super_licences.json');
 
-const { getResourceName, getTextValue } = require('../utils');
+const { getResourceName, getTextValue, getID } = require('../utils');
 
 
 function parseSuperTroops() {
@@ -17,6 +17,7 @@ function parseSuperTroops() {
 
 		output.push({
 			name: getTextValue(superTID),
+			id: getID(superTID, 'troop'),
 			original: getTextValue(troopOriginal.TID),
 			minOriginalLevel: troop.MinOriginalLevel + 1,
 			village: troop.VillageType === 1

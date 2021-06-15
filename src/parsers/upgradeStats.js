@@ -7,7 +7,7 @@ const RAW_HEROES = require('../../raw/heroes.json');
 const RAW_PETS = require('../../raw/pets.json');
 const RAW_BUILDINGS = require('../../raw/buildings.json');
 
-const { getResourceName, getTextValue } = require('../utils');
+const { getResourceName, getTextValue, getID } = require('../utils');
 
 const { maxTH, maxBH } = require('../../config.json');
 
@@ -143,6 +143,7 @@ function _parseStats(inputItems, type) {
 			// Adding info
 			outputList.push({
 				_name: character.Name,
+				id: getID(character.TID, subCategory),
 				name: getTextValue(character.TID),
 				village,
 				category,

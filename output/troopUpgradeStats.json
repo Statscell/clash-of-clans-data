@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "name": "Barbarian",
     "village": "home",
     "category": "troop",
@@ -20,6 +21,7 @@
     "levels": [1,1,2,2,3,3,4,5,6,7,8,9,9,10]
   },
   {
+    "id": 1,
     "name": "Archer",
     "village": "home",
     "category": "troop",
@@ -40,6 +42,7 @@
     "levels": [0,1,2,2,3,3,4,5,6,7,8,9,9,10]
   },
   {
+    "id": 2,
     "name": "Goblin",
     "village": "home",
     "category": "troop",
@@ -60,6 +63,7 @@
     "levels": [0,1,2,2,3,3,4,5,6,7,7,8,8,8]
   },
   {
+    "id": 3,
     "name": "Giant",
     "village": "home",
     "category": "troop",
@@ -80,6 +84,7 @@
     "levels": [0,1,1,2,2,3,4,5,6,7,8,9,10,10]
   },
   {
+    "id": 4,
     "name": "Wall Breaker",
     "village": "home",
     "category": "troop",
@@ -100,6 +105,7 @@
     "levels": [0,0,1,2,2,3,4,5,5,6,7,8,9,10]
   },
   {
+    "id": 5,
     "name": "Balloon",
     "village": "home",
     "category": "troop",
@@ -120,6 +126,7 @@
     "levels": [0,0,0,2,2,3,4,5,6,6,7,8,9,10]
   },
   {
+    "id": 6,
     "name": "Wizard",
     "village": "home",
     "category": "troop",
@@ -140,6 +147,7 @@
     "levels": [0,0,0,0,2,3,4,5,6,7,8,9,10,10]
   },
   {
+    "id": 7,
     "name": "Healer",
     "village": "home",
     "category": "troop",
@@ -160,6 +168,7 @@
     "levels": [0,0,0,0,0,1,2,3,4,4,5,5,6,7]
   },
   {
+    "id": 8,
     "name": "Dragon",
     "village": "home",
     "category": "troop",
@@ -180,6 +189,7 @@
     "levels": [0,0,0,0,0,0,2,3,4,5,6,7,8,9]
   },
   {
+    "id": 9,
     "name": "P.E.K.K.A",
     "village": "home",
     "category": "troop",
@@ -200,6 +210,7 @@
     "levels": [0,0,0,0,0,0,0,3,4,6,7,8,9,9]
   },
   {
+    "id": 10,
     "name": "Minion",
     "village": "home",
     "category": "troop",
@@ -220,6 +231,7 @@
     "levels": [0,0,0,0,0,0,2,4,5,6,7,8,9,10]
   },
   {
+    "id": 11,
     "name": "Hog Rider",
     "village": "home",
     "category": "troop",
@@ -240,6 +252,7 @@
     "levels": [0,0,0,0,0,0,2,4,5,6,7,9,10,10]
   },
   {
+    "id": 12,
     "name": "Valkyrie",
     "village": "home",
     "category": "troop",
@@ -260,6 +273,7 @@
     "levels": [0,0,0,0,0,0,0,2,4,5,6,7,8,9]
   },
   {
+    "id": 13,
     "name": "Golem",
     "village": "home",
     "category": "troop",
@@ -280,6 +294,7 @@
     "levels": [0,0,0,0,0,0,0,2,4,5,7,9,10,10]
   },
   {
+    "id": 15,
     "name": "Witch",
     "village": "home",
     "category": "troop",
@@ -300,6 +315,7 @@
     "levels": [0,0,0,0,0,0,0,0,2,3,4,5,5,5]
   },
   {
+    "id": 17,
     "name": "Lava Hound",
     "village": "home",
     "category": "troop",
@@ -320,6 +336,7 @@
     "levels": [0,0,0,0,0,0,0,0,2,3,4,5,6,6]
   },
   {
+    "id": 22,
     "name": "Bowler",
     "village": "home",
     "category": "troop",
@@ -340,6 +357,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,2,3,4,5,5]
   },
   {
+    "id": 23,
     "name": "Baby Dragon",
     "village": "home",
     "category": "troop",
@@ -360,6 +378,7 @@
     "levels": [0,0,0,0,0,0,0,0,2,4,5,6,7,8]
   },
   {
+    "id": 24,
     "name": "Miner",
     "village": "home",
     "category": "troop",
@@ -380,6 +399,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,3,5,6,7,7]
   },
   {
+    "id": 31,
     "name": "Raged Barbarian",
     "village": "builderBase",
     "category": "troop",
@@ -400,6 +420,7 @@
     "levels": [2,4,6,8,10,12,14,16,18]
   },
   {
+    "id": 32,
     "name": "Sneaky Archer",
     "village": "builderBase",
     "category": "troop",
@@ -420,6 +441,7 @@
     "levels": [0,4,6,8,10,12,14,16,18]
   },
   {
+    "id": 33,
     "name": "Beta Minion",
     "village": "builderBase",
     "category": "troop",
@@ -440,6 +462,7 @@
     "levels": [0,0,4,8,10,12,14,16,18]
   },
   {
+    "id": 34,
     "name": "Boxer Giant",
     "village": "builderBase",
     "category": "troop",
@@ -460,6 +483,7 @@
     "levels": [0,0,4,8,10,12,14,16,18]
   },
   {
+    "id": 35,
     "name": "Bomber",
     "village": "builderBase",
     "category": "troop",
@@ -480,6 +504,7 @@
     "levels": [0,0,0,8,10,12,14,16,18]
   },
   {
+    "id": 36,
     "name": "Super P.E.K.K.A",
     "village": "builderBase",
     "category": "troop",
@@ -500,6 +525,7 @@
     "levels": [0,0,0,0,0,0,0,16,18]
   },
   {
+    "id": 37,
     "name": "Cannon Cart",
     "village": "builderBase",
     "category": "troop",
@@ -520,6 +546,7 @@
     "levels": [0,0,0,0,10,12,14,16,18]
   },
   {
+    "id": 38,
     "name": "Drop Ship",
     "village": "builderBase",
     "category": "troop",
@@ -540,6 +567,7 @@
     "levels": [0,0,0,0,0,0,14,16,18]
   },
   {
+    "id": 41,
     "name": "Baby Dragon",
     "village": "builderBase",
     "category": "troop",
@@ -560,6 +588,7 @@
     "levels": [0,0,0,8,10,12,14,16,18]
   },
   {
+    "id": 42,
     "name": "Night Witch",
     "village": "builderBase",
     "category": "troop",
@@ -580,6 +609,7 @@
     "levels": [0,0,0,0,0,12,14,16,18]
   },
   {
+    "id": 51,
     "name": "Wall Wrecker",
     "village": "home",
     "category": "troop",
@@ -600,6 +630,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,0,3,4,4]
   },
   {
+    "id": 52,
     "name": "Battle Blimp",
     "village": "home",
     "category": "troop",
@@ -620,6 +651,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,0,3,4,4]
   },
   {
+    "id": 53,
     "name": "Yeti",
     "village": "home",
     "category": "troop",
@@ -640,6 +672,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,0,2,3,3]
   },
   {
+    "id": 58,
     "name": "Ice Golem",
     "village": "home",
     "category": "troop",
@@ -660,6 +693,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,3,5,5,6]
   },
   {
+    "id": 59,
     "name": "Electro Dragon",
     "village": "home",
     "category": "troop",
@@ -680,6 +714,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,2,3,4,5]
   },
   {
+    "id": 62,
     "name": "Stone Slammer",
     "village": "home",
     "category": "troop",
@@ -700,6 +735,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,0,3,4,4]
   },
   {
+    "id": 65,
     "name": "Dragon Rider",
     "village": "home",
     "category": "troop",
@@ -720,6 +756,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,2,3]
   },
   {
+    "id": 70,
     "name": "Hog Glider",
     "village": "builderBase",
     "category": "troop",
@@ -740,6 +777,7 @@
     "levels": [0,0,0,0,0,0,0,0,18]
   },
   {
+    "id": 75,
     "name": "Siege Barracks",
     "village": "home",
     "category": "troop",
@@ -760,6 +798,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,4,4]
   },
   {
+    "id": 82,
     "name": "Headhunter",
     "village": "home",
     "category": "troop",
@@ -780,6 +819,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,0,2,3,3]
   },
   {
+    "id": 87,
     "name": "Log Launcher",
     "village": "home",
     "category": "troop",
@@ -800,6 +840,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,4,4]
   },
   {
+    "id": 0,
     "name": "Lightning Spell",
     "village": "home",
     "category": "spell",
@@ -820,6 +861,7 @@
     "levels": [0,0,0,0,4,4,4,5,6,7,8,9,9,9]
   },
   {
+    "id": 1,
     "name": "Healing Spell",
     "village": "home",
     "category": "spell",
@@ -840,6 +882,7 @@
     "levels": [0,0,0,0,0,3,4,5,6,7,7,7,8,8]
   },
   {
+    "id": 2,
     "name": "Rage Spell",
     "village": "home",
     "category": "spell",
@@ -860,6 +903,7 @@
     "levels": [0,0,0,0,0,0,4,5,5,5,5,6,6,6]
   },
   {
+    "id": 3,
     "name": "Jump Spell",
     "village": "home",
     "category": "spell",
@@ -880,6 +924,7 @@
     "levels": [0,0,0,0,0,0,0,0,2,3,3,3,4,4]
   },
   {
+    "id": 5,
     "name": "Freeze Spell",
     "village": "home",
     "category": "spell",
@@ -900,6 +945,7 @@
     "levels": [0,0,0,0,0,0,0,0,2,5,6,7,7,7]
   },
   {
+    "id": 9,
     "name": "Poison Spell",
     "village": "home",
     "category": "spell",
@@ -920,6 +966,7 @@
     "levels": [0,0,0,0,0,0,0,2,3,4,5,6,7,8]
   },
   {
+    "id": 10,
     "name": "Earthquake Spell",
     "village": "home",
     "category": "spell",
@@ -940,6 +987,7 @@
     "levels": [0,0,0,0,0,0,0,2,3,4,5,5,5,5]
   },
   {
+    "id": 11,
     "name": "Haste Spell",
     "village": "home",
     "category": "spell",
@@ -960,6 +1008,7 @@
     "levels": [0,0,0,0,0,0,0,0,2,4,5,5,5,5]
   },
   {
+    "id": 16,
     "name": "Clone Spell",
     "village": "home",
     "category": "spell",
@@ -980,6 +1029,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,3,5,5,6,7]
   },
   {
+    "id": 17,
     "name": "Skeleton Spell",
     "village": "home",
     "category": "spell",
@@ -1000,6 +1050,7 @@
     "levels": [0,0,0,0,0,0,0,0,1,3,4,6,7,7]
   },
   {
+    "id": 28,
     "name": "Bat Spell",
     "village": "home",
     "category": "spell",
@@ -1020,6 +1071,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,3,4,5,5,5]
   },
   {
+    "id": 35,
     "name": "Invisibility Spell",
     "village": "home",
     "category": "spell",
@@ -1040,6 +1092,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,2,3,4,4]
   },
   {
+    "id": 0,
     "name": "Barbarian King",
     "village": "home",
     "category": "hero",
@@ -1060,6 +1113,7 @@
     "levels": [0,0,0,0,0,0,5,10,30,40,50,65,75,80]
   },
   {
+    "id": 1,
     "name": "Archer Queen",
     "village": "home",
     "category": "hero",
@@ -1080,6 +1134,7 @@
     "levels": [0,0,0,0,0,0,0,0,30,40,50,65,75,80]
   },
   {
+    "id": 2,
     "name": "Grand Warden",
     "village": "home",
     "category": "hero",
@@ -1100,6 +1155,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,20,40,50,55]
   },
   {
+    "id": 3,
     "name": "Battle Machine",
     "village": "builderBase",
     "category": "hero",
@@ -1120,6 +1176,7 @@
     "levels": [0,0,0,0,5,10,20,25,30]
   },
   {
+    "id": 4,
     "name": "Royal Champion",
     "village": "home",
     "category": "hero",
@@ -1140,6 +1197,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,25,30]
   },
   {
+    "id": 0,
     "name": "L.A.S.S.I",
     "village": "home",
     "category": "troop",
@@ -1160,6 +1218,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10]
   },
   {
+    "id": 1,
     "name": "Mighty Yak",
     "village": "home",
     "category": "troop",
@@ -1180,6 +1239,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10]
   },
   {
+    "id": 2,
     "name": "Electro Owl",
     "village": "home",
     "category": "troop",
@@ -1200,6 +1260,7 @@
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10]
   },
   {
+    "id": 3,
     "name": "Unicorn",
     "village": "home",
     "category": "troop",
