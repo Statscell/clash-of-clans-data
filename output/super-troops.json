@@ -108,5 +108,15 @@
     "cooldown": 259200,
     "resource": "Dark Elixir",
     "resourceCost": 25000
+  },
+  {
+    "name": "Rocket Balloon",
+    "original": "Balloon",
+    "minOriginalLevel": 8,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000
   }
 ]
