@@ -12,7 +12,8 @@ function parseSuperTroops() {
 
 	for (const troop of RAW_SUPER_TROOPS) {
 		if (troop.Name.toLowerCase() === 'string') continue;
-		const superTID = RAW_CHARACTERS.find(raw => raw.Name === troop.Replacement)?.TID;
+		const superTroop = RAW_CHARACTERS.find(raw => raw.Name === troop.Replacement);
+		const superTID = superTroop.TID;
 		const troopOriginal = RAW_CHARACTERS.find(raw => raw.Name === troop.Original);
 
 		output.push({
@@ -26,7 +27,8 @@ function parseSuperTroops() {
 			duration: troop.DurationH * 60 * 60,
 			cooldown: troop.CooldownH * 60 * 60,
 			resource: getResourceName(troop.Resource),
-			resourceCost: troop.ResourceCost
+			resourceCost: troop.ResourceCost,
+			housingSpace: superTroop.HousingSpace
 		});
 	}
 
