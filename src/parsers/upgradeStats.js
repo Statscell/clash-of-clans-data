@@ -145,6 +145,7 @@ function _parseStats(inputItems, type) {
 				_name: character.Name,
 				id: getID(character.TID, subCategory),
 				name: getTextValue(character.TID),
+				housingSpace: character.HousingSpace,
 				village,
 				category,
 				subCategory,

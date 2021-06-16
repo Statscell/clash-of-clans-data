@@ -2,6 +2,7 @@
   {
     "id": 0,
     "name": "Barbarian",
+    "housingSpace": 1,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -23,6 +24,7 @@
   {
     "id": 1,
     "name": "Archer",
+    "housingSpace": 1,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -44,6 +46,7 @@
   {
     "id": 2,
     "name": "Goblin",
+    "housingSpace": 1,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -65,6 +68,7 @@
   {
     "id": 3,
     "name": "Giant",
+    "housingSpace": 5,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -86,6 +90,7 @@
   {
     "id": 4,
     "name": "Wall Breaker",
+    "housingSpace": 2,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -107,6 +112,7 @@
   {
     "id": 5,
     "name": "Balloon",
+    "housingSpace": 5,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -128,6 +134,7 @@
   {
     "id": 6,
     "name": "Wizard",
+    "housingSpace": 4,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -149,6 +156,7 @@
   {
     "id": 7,
     "name": "Healer",
+    "housingSpace": 14,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -170,6 +178,7 @@
   {
     "id": 8,
     "name": "Dragon",
+    "housingSpace": 20,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -191,6 +200,7 @@
   {
     "id": 9,
     "name": "P.E.K.K.A",
+    "housingSpace": 25,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -212,6 +222,7 @@
   {
     "id": 10,
     "name": "Minion",
+    "housingSpace": 2,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -233,6 +244,7 @@
   {
     "id": 11,
     "name": "Hog Rider",
+    "housingSpace": 5,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -254,6 +266,7 @@
   {
     "id": 12,
     "name": "Valkyrie",
+    "housingSpace": 8,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -275,6 +288,7 @@
   {
     "id": 13,
     "name": "Golem",
+    "housingSpace": 30,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -296,6 +310,7 @@
   {
     "id": 15,
     "name": "Witch",
+    "housingSpace": 12,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -317,6 +332,7 @@
   {
     "id": 17,
     "name": "Lava Hound",
+    "housingSpace": 30,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -338,6 +354,7 @@
   {
     "id": 22,
     "name": "Bowler",
+    "housingSpace": 6,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -359,6 +376,7 @@
   {
     "id": 23,
     "name": "Baby Dragon",
+    "housingSpace": 10,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -380,6 +398,7 @@
   {
     "id": 24,
     "name": "Miner",
+    "housingSpace": 6,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -401,6 +420,7 @@
   {
     "id": 31,
     "name": "Raged Barbarian",
+    "housingSpace": 2,
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -422,6 +442,7 @@
   {
     "id": 32,
     "name": "Sneaky Archer",
+    "housingSpace": 2,
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -443,6 +464,7 @@
   {
     "id": 33,
     "name": "Beta Minion",
+    "housingSpace": 2,
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -464,6 +486,7 @@
   {
     "id": 34,
     "name": "Boxer Giant",
+    "housingSpace": 8,
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -485,6 +508,7 @@
   {
     "id": 35,
     "name": "Bomber",
+    "housingSpace": 4,
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -506,6 +530,7 @@
   {
     "id": 36,
     "name": "Super P.E.K.K.A",
+    "housingSpace": 25,
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -527,6 +552,7 @@
   {
     "id": 37,
     "name": "Cannon Cart",
+    "housingSpace": 8,
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -548,6 +574,7 @@
   {
     "id": 38,
     "name": "Drop Ship",
+    "housingSpace": 5,
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -569,6 +596,7 @@
   {
     "id": 41,
     "name": "Baby Dragon",
+    "housingSpace": 10,
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -590,6 +618,7 @@
   {
     "id": 42,
     "name": "Night Witch",
+    "housingSpace": 12,
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -611,6 +640,7 @@
   {
     "id": 51,
     "name": "Wall Wrecker",
+    "housingSpace": 1,
     "village": "home",
     "category": "troop",
     "subCategory": "siege",
@@ -632,6 +662,7 @@
   {
     "id": 52,
     "name": "Battle Blimp",
+    "housingSpace": 1,
     "village": "home",
     "category": "troop",
     "subCategory": "siege",
@@ -653,6 +684,7 @@
   {
     "id": 53,
     "name": "Yeti",
+    "housingSpace": 18,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -674,6 +706,7 @@
   {
     "id": 58,
     "name": "Ice Golem",
+    "housingSpace": 15,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -695,6 +728,7 @@
   {
     "id": 59,
     "name": "Electro Dragon",
+    "housingSpace": 30,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -716,6 +750,7 @@
   {
     "id": 62,
     "name": "Stone Slammer",
+    "housingSpace": 1,
     "village": "home",
     "category": "troop",
     "subCategory": "siege",
@@ -737,6 +772,7 @@
   {
     "id": 65,
     "name": "Dragon Rider",
+    "housingSpace": 25,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -758,6 +794,7 @@
   {
     "id": 70,
     "name": "Hog Glider",
+    "housingSpace": 5,
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -779,6 +816,7 @@
   {
     "id": 75,
     "name": "Siege Barracks",
+    "housingSpace": 1,
     "village": "home",
     "category": "troop",
     "subCategory": "siege",
@@ -800,6 +838,7 @@
   {
     "id": 82,
     "name": "Headhunter",
+    "housingSpace": 6,
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -821,6 +860,7 @@
   {
     "id": 87,
     "name": "Log Launcher",
+    "housingSpace": 1,
     "village": "home",
     "category": "troop",
     "subCategory": "siege",
@@ -842,6 +882,7 @@
   {
     "id": 0,
     "name": "Lightning Spell",
+    "housingSpace": 1,
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -863,6 +904,7 @@
   {
     "id": 1,
     "name": "Healing Spell",
+    "housingSpace": 2,
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -884,6 +926,7 @@
   {
     "id": 2,
     "name": "Rage Spell",
+    "housingSpace": 2,
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -905,6 +948,7 @@
   {
     "id": 3,
     "name": "Jump Spell",
+    "housingSpace": 2,
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -926,6 +970,7 @@
   {
     "id": 5,
     "name": "Freeze Spell",
+    "housingSpace": 1,
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -947,6 +992,7 @@
   {
     "id": 9,
     "name": "Poison Spell",
+    "housingSpace": 1,
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -968,6 +1014,7 @@
   {
     "id": 10,
     "name": "Earthquake Spell",
+    "housingSpace": 1,
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -989,6 +1036,7 @@
   {
     "id": 11,
     "name": "Haste Spell",
+    "housingSpace": 1,
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1010,6 +1058,7 @@
   {
     "id": 16,
     "name": "Clone Spell",
+    "housingSpace": 3,
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1031,6 +1080,7 @@
   {
     "id": 17,
     "name": "Skeleton Spell",
+    "housingSpace": 1,
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1052,6 +1102,7 @@
   {
     "id": 28,
     "name": "Bat Spell",
+    "housingSpace": 1,
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1073,6 +1124,7 @@
   {
     "id": 35,
     "name": "Invisibility Spell",
+    "housingSpace": 1,
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1094,6 +1146,7 @@
   {
     "id": 0,
     "name": "Barbarian King",
+    "housingSpace": 25,
     "village": "home",
     "category": "hero",
     "subCategory": "hero",
@@ -1115,6 +1168,7 @@
   {
     "id": 1,
     "name": "Archer Queen",
+    "housingSpace": 25,
     "village": "home",
     "category": "hero",
     "subCategory": "hero",
@@ -1136,6 +1190,7 @@
   {
     "id": 2,
     "name": "Grand Warden",
+    "housingSpace": 25,
     "village": "home",
     "category": "hero",
     "subCategory": "hero",
@@ -1157,6 +1212,7 @@
   {
     "id": 3,
     "name": "Battle Machine",
+    "housingSpace": 25,
     "village": "builderBase",
     "category": "hero",
     "subCategory": "hero",
@@ -1178,6 +1234,7 @@
   {
     "id": 4,
     "name": "Royal Champion",
+    "housingSpace": 25,
     "village": "home",
     "category": "hero",
     "subCategory": "hero",
@@ -1199,6 +1256,7 @@
   {
     "id": 0,
     "name": "L.A.S.S.I",
+    "housingSpace": 20,
     "village": "home",
     "category": "troop",
     "subCategory": "pet",
@@ -1220,6 +1278,7 @@
   {
     "id": 1,
     "name": "Mighty Yak",
+    "housingSpace": 20,
     "village": "home",
     "category": "troop",
     "subCategory": "pet",
@@ -1241,6 +1300,7 @@
   {
     "id": 2,
     "name": "Electro Owl",
+    "housingSpace": 20,
     "village": "home",
     "category": "troop",
     "subCategory": "pet",
@@ -1262,6 +1322,7 @@
   {
     "id": 3,
     "name": "Unicorn",
+    "housingSpace": 20,
     "village": "home",
     "category": "troop",
     "subCategory": "pet",

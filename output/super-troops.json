@@ -8,7 +8,8 @@
     "duration": 259200,
     "cooldown": 259200,
     "resource": "Dark Elixir",
-    "resourceCost": 25000
+    "resourceCost": 25000,
+    "housingSpace": 5
   },
   {
     "name": "Sneaky Goblin",
@@ -19,7 +20,8 @@
     "duration": 259200,
     "cooldown": 259200,
     "resource": "Dark Elixir",
-    "resourceCost": 25000
+    "resourceCost": 25000,
+    "housingSpace": 3
   },
   {
     "name": "Super Giant",
@@ -30,7 +32,8 @@
     "duration": 259200,
     "cooldown": 259200,
     "resource": "Dark Elixir",
-    "resourceCost": 25000
+    "resourceCost": 25000,
+    "housingSpace": 10
   },
   {
     "name": "Super Wall Breaker",
@@ -41,7 +44,8 @@
     "duration": 259200,
     "cooldown": 259200,
     "resource": "Dark Elixir",
-    "resourceCost": 25000
+    "resourceCost": 25000,
+    "housingSpace": 8
   },
   {
     "name": "Super Archer",
@@ -52,7 +56,8 @@
     "duration": 259200,
     "cooldown": 259200,
     "resource": "Dark Elixir",
-    "resourceCost": 25000
+    "resourceCost": 25000,
+    "housingSpace": 12
   },
   {
     "name": "Super Witch",
@@ -63,7 +68,8 @@
     "duration": 259200,
     "cooldown": 259200,
     "resource": "Dark Elixir",
-    "resourceCost": 25000
+    "resourceCost": 25000,
+    "housingSpace": 40
   },
   {
     "name": "Inferno Dragon",
@@ -74,7 +80,8 @@
     "duration": 259200,
     "cooldown": 259200,
     "resource": "Dark Elixir",
-    "resourceCost": 25000
+    "resourceCost": 25000,
+    "housingSpace": 15
   },
   {
     "name": "Super Valkyrie",
@@ -85,7 +92,8 @@
     "duration": 259200,
     "cooldown": 259200,
     "resource": "Dark Elixir",
-    "resourceCost": 25000
+    "resourceCost": 25000,
+    "housingSpace": 20
   },
   {
     "name": "Super Minion",
@@ -96,7 +104,8 @@
     "duration": 259200,
     "cooldown": 259200,
     "resource": "Dark Elixir",
-    "resourceCost": 25000
+    "resourceCost": 25000,
+    "housingSpace": 12
   },
   {
     "name": "Super Wizard",
@@ -107,7 +116,8 @@
     "duration": 259200,
     "cooldown": 259200,
     "resource": "Dark Elixir",
-    "resourceCost": 25000
+    "resourceCost": 25000,
+    "housingSpace": 10
   },
   {
     "name": "Ice Hound",
@@ -118,7 +128,8 @@
     "duration": 259200,
     "cooldown": 259200,
     "resource": "Dark Elixir",
-    "resourceCost": 25000
+    "resourceCost": 25000,
+    "housingSpace": 40
   },
   {
     "name": "Rocket Balloon",
@@ -129,6 +140,7 @@
     "duration": 259200,
     "cooldown": 259200,
     "resource": "Dark Elixir",
-    "resourceCost": 25000
+    "resourceCost": 25000,
+    "housingSpace": 8
   }
 ]
