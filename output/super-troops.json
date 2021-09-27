@@ -142,5 +142,17 @@
     "resource": "Dark Elixir",
     "resourceCost": 25000,
     "housingSpace": 8
+  },
+  {
+    "name": "Super Bowler",
+    "id": 80,
+    "original": "Bowler",
+    "minOriginalLevel": 4,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000,
+    "housingSpace": 30
   }
 ]
