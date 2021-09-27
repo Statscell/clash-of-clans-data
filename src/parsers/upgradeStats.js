@@ -89,7 +89,7 @@ function _parseStats(inputItems, type) {
 				: type === TYPES.PETS
 					? 'LaboratoryLevel'
 					: 'BarrackLevel';
-			if (character.ProductionBuilding !== '' && character[productionBuildingType] !== '') {
+			if (character.Name !== '' && character[productionBuildingType] !== '') {
 				// some wiered fix.. because the pets file sucks
 				const productionBuildingField = type === TYPES.PETS
 					? 'Pet Shop'
