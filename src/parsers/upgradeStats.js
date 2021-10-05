@@ -90,7 +90,7 @@ function _parseStats(inputItems, type) {
 					? 'LaboratoryLevel'
 					: 'BarrackLevel';
 			if (character.Name !== '' && character[productionBuildingType] !== '') {
-				// some wiered fix.. because the pets file sucks
+				// some wierd fix.. because the pets file sucks
 				const productionBuildingField = type === TYPES.PETS
 					? 'Pet Shop'
 					: character.ProductionBuilding;
@@ -169,7 +169,7 @@ function _parseStats(inputItems, type) {
 		}
 	}
 
-	const formattedOutput = outputList.map((itm) => {
+	return outputList.map((itm) => {
 		const levels = [];
 		let previousLevel = 0;
 		const maxHall = itm.village === 'home'
@@ -190,8 +190,6 @@ function _parseStats(inputItems, type) {
 		itm.levels = levels;
 		return itm;
 	});
-
-	return formattedOutput;
 }
 
 function formatUpdateTime(timeH, timeM) {
