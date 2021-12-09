@@ -48,7 +48,7 @@ function _parseStats(inputItems, type) {
 		}
 
 		// Ignoring all the disabled characters
-		if (character.EnabledByCalendar === true || (type !== TYPES.PETS && character.DisableProduction === true) || character.EnabledBySuperLicence === true) {
+		if ((type !== TYPES.PETS && character.DisableProduction === true) || character.EnabledBySuperLicence === true) {
 			validCharacter.name = '';
 			continue;
 		}
