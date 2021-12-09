@@ -1,6 +1,6 @@
 {
 	"name": "clash-of-clans-data",
-	"version": "14.211.10",
+	"version": "14.211.13",
 	"description": "Data parser and formatter for Clash of Clans",
 	"main": "src/index.js",
 	"repository": "https://github.com/Statscell/clash-of-clans-data",
