@@ -69,7 +69,7 @@ function _parseStats(inputItems, type) {
 			time: 0,
 			resource: '',
 			building: '',
-			buildingLevel: 0
+			buildingLevel: 0,
 		};
 
 		// handling different character types
@@ -123,7 +123,7 @@ function _parseStats(inputItems, type) {
 		}
 
 		// Adding new character to the list
-		if (character.Name) {
+		if (character.Name && character.TID) {
 			validCharacter.name = character.Name;
 			validCharacter.village = village;
 
@@ -151,11 +151,12 @@ function _parseStats(inputItems, type) {
 				subCategory,
 				unlock: unlockValues,
 				upgrade: {
-					cost: [upgradeCost],
-					time: [upgradeTime],
+					cost: upgradeCost ? [upgradeCost] : [],
+					time: upgradeTime ? [upgradeTime] : [],
 					resource: getResourceName(character.UpgradeResource)
 				},
-				hallLevels: [hallLevel]
+				hallLevels: [hallLevel],
+				seasonal: character.EnabledByCalendar === true
 			});
 		} else {
 			// Validating last indexed character
@@ -196,8 +197,8 @@ function formatUpdateTime(timeH, timeM) {
 	const time = (isNaN(timeH)
 		? 0
 		: timeH * 60) + (isNaN(timeM)
-		? 0
-		: timeM);
+			? 0
+			: timeM);
 	return time === 0
 		? null
 		: parseInt(time) * 60;
@@ -207,12 +208,12 @@ function formatUnlockTime(timeD, timeH, timeM, timeS) {
 	return parseInt((isNaN(timeD)
 		? 0
 		: timeD * 24 * 60 * 60) + (isNaN(timeH)
-		? 0
-		: timeH * 60 * 60) + (isNaN(timeM)
-		? 0
-		: timeM * 60) + (isNaN(timeS)
-		? 0
-		: timeS));
+			? 0
+			: timeH * 60 * 60) + (isNaN(timeM)
+				? 0
+				: timeM * 60) + (isNaN(timeS)
+					? 0
+					: timeS));
 }
 
 const productionBuilding = {
