@@ -48,7 +48,7 @@ function _parseStats(inputItems, type) {
 		}
 
 		// Ignoring all the disabled characters
-		if ((type !== TYPES.PETS && character.DisableProduction === true) || character.EnabledBySuperLicence === true) {
+		if ((type !== TYPES.PETS && character.DisableProduction === true) || (type !== TYPES.TROOPS && character.EnabledBySuperLicence === true)) {
 			validCharacter.name = '';
 			continue;
 		}
@@ -61,6 +61,8 @@ function _parseStats(inputItems, type) {
 		const upgradeCost = character.UpgradeCost === ''
 			? null
 			: parseInt(character.UpgradeCost);
+		const dps = character.DPS;
+		const regenerationTime = type === TYPES.HEROES ? character.RegenerationTimeMinutes * 60 : null;
 
 		// unlock values
 		let unlockValues = {
@@ -114,8 +116,9 @@ function _parseStats(inputItems, type) {
 					: validCharacter.village === 'home'
 						? 'Lab'
 						: 'Lab2';
+				console.log(character.TID, `${labBuilding[labBuildName]}${character.LaboratoryLevel}`, character.LaboratoryLevel)
 				const labThRequirement = RAW_BUILDINGS
-					.find(build => build.ExportName === `${labBuilding[labBuildName]}${character.LaboratoryLevel}`).TownHallLevel;
+					.find(build => build.ExportName === `${labBuilding[labBuildName]}${character.LaboratoryLevel || 1}`).TownHallLevel;
 				hallLevel = unlockValues.hall
 					? Math.max(unlockValues.hall, hallLevel)
 					: Math.max(hallLevel, labThRequirement);
@@ -123,7 +126,8 @@ function _parseStats(inputItems, type) {
 		}
 
 		// Adding new character to the list
-		if (character.Name && character.TID) {
+		if (character.Name) {
+			if (character.TID === "") continue;
 			validCharacter.name = character.Name;
 			validCharacter.village = village;
 
@@ -150,6 +154,10 @@ function _parseStats(inputItems, type) {
 				category,
 				subCategory,
 				unlock: unlockValues,
+				resourceType: getResourceName(character.TrainingResource),
+				trainingTime: ![TYPES.HEROES, TYPES.PETS].includes(type) ? character.TrainingTime : 0,
+				regenerationTimes: type === TYPES.HEROES ? [regenerationTime] :[],
+				dps: dps > 0 ? [dps] : [],
 				upgrade: {
 					cost: upgradeCost ? [upgradeCost] : [],
 					time: upgradeTime ? [upgradeTime] : [],
@@ -159,11 +167,12 @@ function _parseStats(inputItems, type) {
 				seasonal: character.EnabledByCalendar === true
 			});
 		} else {
-			// Validating last indexed character
 			if (validCharacter.name === '') continue;
 			const foundItem = outputList.find(itm => itm._name === validCharacter.name && itm.village === validCharacter.village);
 			if (!foundItem) continue;
 
+			if (dps > 0) foundItem.dps.push(dps);
+			if (regenerationTime) foundItem.regenerationTimes.push(regenerationTime)
 			if (upgradeCost) foundItem.upgrade.cost.push(upgradeCost);
 			if (upgradeTime) foundItem.upgrade.time.push(upgradeTime);
 			foundItem.hallLevels.push(hallLevel);
