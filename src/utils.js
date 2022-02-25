@@ -22,7 +22,7 @@ function getResourceName(id) {
 function getID(TID, type) {
 	let list = null;
 	if (type === 'troop' || type === 'siege') list = RAW_CHARACTERS;
-	else if (type == 'spell') list = RAW_SPELLS;
+	else if (type === 'spell') list = RAW_SPELLS;
 	else if (type === 'pet') list = RAW_PETS;
 	else if (type === 'hero') list = RAW_HEROES;
 
