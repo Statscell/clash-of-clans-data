@@ -98,7 +98,7 @@
     "resourceType": "Elixir",
     "trainingTime": 120,
     "regenerationTimes": [],
-    "dps": [11,14,19,24,31,43,50,57,64,72],
+    "dps": [11,14,19,24,31,43,55,62,70,78],
     "upgrade": {
       "cost": [40000,150000,500000,1200000,2000000,3500000,5000000,9000000,13000000],
       "time": [14400,28800,43200,86400,172800,345600,691200,1123200,1296000],
@@ -1124,7 +1124,7 @@
     "resourceType": "Elixir",
     "trainingTime": 84,
     "regenerationTimes": [],
-    "dps": [160,190],
+    "dps": [155,170],
     "upgrade": {
       "cost": [80000],
       "time": [43200],
@@ -1556,7 +1556,7 @@
     "resourceType": "Elixir",
     "trainingTime": 1440,
     "regenerationTimes": [],
-    "dps": [80,87,94],
+    "dps": [80,85,90],
     "upgrade": {
       "cost": [],
       "time": [],
@@ -1691,7 +1691,7 @@
     "resourceType": "Gold",
     "trainingTime": 1200,
     "regenerationTimes": [],
-    "dps": [135,145,155,165],
+    "dps": [45,50,55,60],
     "upgrade": {
       "cost": [8000000,11000000,14000000],
       "time": [864000,1209600,1382400],

@@ -13,3 +13,5 @@
 "BankedGold","TID_GOLD","TID_GOLD","sc/ui.sc","icon_gold1","Collect Gold","building_resources_gold","Steal Gold",,,,,,,,240,240,0,"Gold",,,
 "BankedElixir","TID_ELIXIR","TID_ELIXIR","sc/ui.sc","icon_elixir1","Collect Elixir","building_resources_elixir","Steal Elixir",,,,,,,,192,0,192,"Elixir",,,
 "BankedDarkElixir","TID_DARK_ELIXIR","TID_DARK_ELIXIR","sc/ui.sc","icon_dark_elixir1","Collect Dark Elixir","building_resources_dark_elixir","Steal Dark Elixir",,,,,,,,240,240,240,"DarkElixir",,,
+"CapitalResource","TID_CAPITAL_RESOURCE","TID_CAPITAL_RESOURCE","sc/ui.sc","icon_capital_resource","Collect Capital Gold","building_resources_capital_resource","Steal Capital Gold",,,,,,"cc_bar_resources","TID_CAPITAL_RESOURCE_FULL",240,240,240,,,"special_offer_item_capital_gold_1",
+"CapitalReward","TID_CAPITAL_REWARD","TID_CAPITAL_REWARD","sc/ui.sc","icon_capital_reward","Collect Gold","building_resources_gold",,,,,,,"cc_bar_reward","TID_CAPITAL_REWARD_FULL",240,240,240,,,"special_offer_item_raid_medals_1",
