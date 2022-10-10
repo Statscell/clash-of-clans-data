@@ -48,7 +48,7 @@ function _parseStats(inputItems, type) {
 		}
 
 		// Ignoring all the disabled characters
-		if ((type !== TYPES.PETS && character.DisableProduction === true) || (type !== TYPES.TROOPS && character.EnabledBySuperLicence === true)) {
+		if ((type !== TYPES.PETS && character.DisableProduction === true) || (type !== TYPES.TROOPS && character.EnabledBySuperLicence === true) || character.Deprecated === true || character.IsSecondaryTroop === true) {
 			validCharacter.name = '';
 			continue;
 		}
@@ -62,7 +62,9 @@ function _parseStats(inputItems, type) {
 			? null
 			: parseInt(character.UpgradeCost);
 		const dps = character.DPS;
-		const regenerationTime = type === TYPES.HEROES ? character.RegenerationTimeMinutes * 60 : null;
+		const regenerationTime = type === TYPES.HEROES
+			? character.RegenerationTimeMinutes * 60
+			: null;
 
 		// unlock values
 		let unlockValues = {
@@ -116,7 +118,7 @@ function _parseStats(inputItems, type) {
 					: validCharacter.village === 'home'
 						? 'Lab'
 						: 'Lab2';
-				console.log(character.TID, `${labBuilding[labBuildName]}${character.LaboratoryLevel}`, character.LaboratoryLevel)
+				console.log(character.TID, `${labBuilding[labBuildName]}${character.LaboratoryLevel}`, character.LaboratoryLevel);
 				const labThRequirement = RAW_BUILDINGS
 					.find(build => build.ExportName === `${labBuilding[labBuildName]}${character.LaboratoryLevel || 1}`).TownHallLevel;
 				hallLevel = unlockValues.hall
@@ -127,7 +129,7 @@ function _parseStats(inputItems, type) {
 
 		// Adding new character to the list
 		if (character.Name) {
-			if (character.TID === "") continue;
+			if (character.TID === '') continue;
 			validCharacter.name = character.Name;
 			validCharacter.village = village;
 
@@ -155,12 +157,22 @@ function _parseStats(inputItems, type) {
 				subCategory,
 				unlock: unlockValues,
 				resourceType: getResourceName(character.TrainingResource),
-				trainingTime: ![TYPES.HEROES, TYPES.PETS].includes(type) ? character.TrainingTime : 0,
-				regenerationTimes: type === TYPES.HEROES ? [regenerationTime] :[],
-				dps: dps > 0 ? [dps] : [],
+				trainingTime: ![TYPES.HEROES, TYPES.PETS].includes(type)
+					? character.TrainingTime
+					: 0,
+				regenerationTimes: type === TYPES.HEROES
+					? [regenerationTime]
+					: [],
+				dps: dps > 0
+					? [dps]
+					: [],
 				upgrade: {
-					cost: upgradeCost ? [upgradeCost] : [],
-					time: upgradeTime ? [upgradeTime] : [],
+					cost: upgradeCost
+						? [upgradeCost]
+						: [],
+					time: upgradeTime
+						? [upgradeTime]
+						: [],
 					resource: getResourceName(character.UpgradeResource)
 				},
 				hallLevels: [hallLevel],
@@ -172,7 +184,7 @@ function _parseStats(inputItems, type) {
 			if (!foundItem) continue;
 
 			if (dps > 0) foundItem.dps.push(dps);
-			if (regenerationTime) foundItem.regenerationTimes.push(regenerationTime)
+			if (regenerationTime) foundItem.regenerationTimes.push(regenerationTime);
 			if (upgradeCost) foundItem.upgrade.cost.push(upgradeCost);
 			if (upgradeTime) foundItem.upgrade.time.push(upgradeTime);
 			foundItem.hallLevels.push(hallLevel);
@@ -206,8 +218,8 @@ function formatUpdateTime(timeH, timeM) {
 	const time = (isNaN(timeH)
 		? 0
 		: timeH * 60) + (isNaN(timeM)
-			? 0
-			: timeM);
+		? 0
+		: timeM);
 	return time === 0
 		? null
 		: parseInt(time) * 60;
@@ -217,12 +229,12 @@ function formatUnlockTime(timeD, timeH, timeM, timeS) {
 	return parseInt((isNaN(timeD)
 		? 0
 		: timeD * 24 * 60 * 60) + (isNaN(timeH)
-			? 0
-			: timeH * 60 * 60) + (isNaN(timeM)
-				? 0
-				: timeM * 60) + (isNaN(timeS)
-					? 0
-					: timeS));
+		? 0
+		: timeH * 60 * 60) + (isNaN(timeM)
+		? 0
+		: timeM * 60) + (isNaN(timeS)
+		? 0
+		: timeS));
 }
 
 const productionBuilding = {
