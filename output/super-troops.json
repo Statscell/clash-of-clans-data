@@ -166,5 +166,17 @@
     "resource": "Dark Elixir",
     "resourceCost": 25000,
     "housingSpace": 40
+  },
+  {
+    "name": "Super Miner",
+    "id": 56,
+    "original": "Miner",
+    "minOriginalLevel": 7,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000,
+    "housingSpace": 24
   }
 ]
