@@ -87,6 +87,7 @@ function _parseStats(inputItems, type) {
 				unlockValues.building = getTextValue(heroAltar.TID);
 				unlockValues.buildingLevel = 1;
 			}
+			console.log(character.TID, character.VisualLevel, hallLevel);
 		} else {
 			const productionBuildingType = type === TYPES.SPELLS
 				? 'SpellForgeLevel'
@@ -118,7 +119,7 @@ function _parseStats(inputItems, type) {
 					: validCharacter.village === 'home'
 						? 'Lab'
 						: 'Lab2';
-				console.log(character.TID, `${labBuilding[labBuildName]}${character.LaboratoryLevel}`, character.LaboratoryLevel);
+				// console.log(character.TID, `${labBuilding[labBuildName]}${character.LaboratoryLevel}`, character.LaboratoryLevel);
 				const labThRequirement = RAW_BUILDINGS
 					.find(build => build.ExportName === `${labBuilding[labBuildName]}${character.LaboratoryLevel || 1}`).TownHallLevel;
 				hallLevel = unlockValues.hall
@@ -175,6 +176,8 @@ function _parseStats(inputItems, type) {
 						: [],
 					resource: getResourceName(character.UpgradeResource)
 				},
+				maxLevel: character.VisualLevel,
+				minLevel: character.VisualLevel,
 				hallLevels: [hallLevel],
 				seasonal: character.EnabledByCalendar === true
 			});
@@ -188,6 +191,8 @@ function _parseStats(inputItems, type) {
 			if (upgradeCost) foundItem.upgrade.cost.push(upgradeCost);
 			if (upgradeTime) foundItem.upgrade.time.push(upgradeTime);
 			foundItem.hallLevels.push(hallLevel);
+			foundItem.maxLevel = Math.max(foundItem.maxLevel, character.VisualLevel);
+			foundItem.minLevel = Math.min(foundItem.minLevel, character.VisualLevel);
 		}
 	}
 
@@ -201,13 +206,15 @@ function _parseStats(inputItems, type) {
 		for (let i = 1; i <= Math.max(...itm.hallLevels, maxHall); i++) {
 			const possibleLevel = itm.hallLevels.lastIndexOf(i);
 			if (possibleLevel >= 0) {
-				levels.push(possibleLevel + 1);
-				previousLevel = possibleLevel + 1;
+				levels.push(possibleLevel + (itm.minLevel || 1));
+				previousLevel = possibleLevel + (itm.minLevel || 1);
 			} else {
 				levels.push(previousLevel);
 			}
 		}
 		delete itm.hallLevels;
+		delete itm.minLevel;
+		delete itm.maxLevel;
 		delete itm._name;
 		itm.levels = levels;
 		return itm;
