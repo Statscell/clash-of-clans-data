@@ -79,7 +79,7 @@ function _parseStats(inputItems, type) {
 		// handling different character types
 		if (type === TYPES.HEROES) {
 			unlockValues.hall = hallLevel = character.RequiredTownHallLevel;
-			const heroAltar = RAW_BUILDINGS.find(build => build.ExportName === `${heroAltars[character.TID]}1`);
+			const heroAltar = RAW_BUILDINGS.find(build => build.TID === character.TID);
 			if (heroAltar) {
 				unlockValues.cost = heroAltar.BuildCost;
 				unlockValues.time = formatUnlockTime(heroAltar.BuildTimeD, heroAltar.BuildTimeH, heroAltar.BuildTimeM, heroAltar.BuildTimeS);
@@ -213,7 +213,7 @@ function _parseStats(inputItems, type) {
 			}
 		}
 		delete itm.hallLevels;
-		delete itm.minLevel;
+		// delete itm.minLevel;
 		delete itm.maxLevel;
 		delete itm._name;
 		itm.levels = levels;
@@ -228,7 +228,7 @@ function formatUpdateTime(timeH, timeM) {
 		? 0
 		: timeM);
 	return time === 0
-		? null
+		? 0
 		: parseInt(time) * 60;
 }
 
@@ -260,10 +260,12 @@ const labBuilding = {
 	'PetLab': 'pet_house_lvl'
 };
 
+// eslint-disable-next-line no-unused-vars
 const heroAltars = {
 	'TID_BARBARIAN_KING': 'heroaltar_barbarian_king_lvl',
 	'TID_ARCHER_QUEEN': 'heroaltar_archer_queen_lvl',
 	'TID_WARMACHINE': 'heroaltar_warmachine_lvl',
+	// 'TID_HERO_BATTLE_COPTER': 'heroaltar_battle_copter_lvl',
 	'TID_HERO_ROYAL_CHAMPION': 'heroaltar_royal_champion_lvl',
 	'TID_GRAND_WARDEN': 'heroaltar_elder_lvl'
 };
