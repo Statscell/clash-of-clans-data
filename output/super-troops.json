@@ -178,5 +178,17 @@
     "resource": "Dark Elixir",
     "resourceCost": 25000,
     "housingSpace": 24
+  },
+  {
+    "name": "Super Hog Rider",
+    "id": 98,
+    "original": "Hog Rider",
+    "minOriginalLevel": 10,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000,
+    "housingSpace": 12
   }
 ]
