@@ -6,7 +6,6 @@ Data parser/formatter and usable data files for Supercell's game "Clash of Clans
 
 The project contains of few major folders
 
-- `raw`: Raw csv files. _They can be obtained from [this repository](https://github.com/Statscell/clash-of-clans-csv)_
 - `output`: Parsed output file. If you are not willing to run the entire project you can just use it!
 - `src`: All the magic is happening here
 

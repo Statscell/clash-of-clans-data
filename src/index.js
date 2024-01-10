@@ -6,9 +6,9 @@ const { resolve } = require('path');
 
 
 async function decompress() {
-	for await (const path of ['raw']) {
+	for await (const path of ['assets/csv', 'assets/localization', 'assets/logic']) {
 		console.log(`Decompressing files in ${path}`);
-		readdirSync('raw').forEach((file) => {
+		readdirSync(path).forEach((file) => {
 			const filepath = resolve(path, file);
 			const buffer = readFileSync(filepath);
 			writeFileSync(filepath, ScCompression.decompress(buffer));
