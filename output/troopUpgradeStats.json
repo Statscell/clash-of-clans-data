@@ -20,7 +20,8 @@
     "upgrade": {
       "cost": [20000,60000,200000,650000,1400000,2100000,2800000,5000000,10000000,16000000,18000000],
       "time": [7200,18000,43200,86400,129600,172800,216000,302400,518400,1036800,1123200],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -47,7 +48,8 @@
     "upgrade": {
       "cost": [30000,80000,300000,800000,2000000,2500000,3200000,5600000,10200000,16000000,18000000],
       "time": [10800,21600,43200,86400,129600,172800,216000,302400,518400,1036800,1123200],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -74,7 +76,8 @@
     "upgrade": {
       "cost": [45000,175000,500000,1200000,2000000,3000000,5600000,16000000],
       "time": [18000,32400,43200,86400,129600,259200,518400,1144800],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -101,7 +104,8 @@
     "upgrade": {
       "cost": [40000,150000,500000,1200000,2000000,3000000,3500000,5600000,8000000,16500000,18500000],
       "time": [14400,28800,43200,86400,172800,244800,345600,475200,604800,1080000,1209600],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -128,7 +132,8 @@
     "upgrade": {
       "cost": [100000,250000,600000,1200000,2500000,4200000,6500000,8000000,11000000,16500000,19000000],
       "time": [21600,43200,64800,86400,129600,183600,302400,561600,1036800,1080000,1209600],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -155,7 +160,8 @@
     "upgrade": {
       "cost": [125000,400000,720000,1300000,2750000,4500000,7000000,8500000,17000000,20000000],
       "time": [28800,43200,64800,86400,302400,345600,453600,777600,1209600,1382400],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -182,7 +188,8 @@
     "upgrade": {
       "cost": [120000,320000,620000,1200000,2200000,3500000,5000000,5800000,8500000,17200000,19200000],
       "time": [28800,43200,64800,86400,172800,230400,302400,453600,604800,1080000,1209600],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -209,7 +216,8 @@
     "upgrade": {
       "cost": [450000,900000,2700000,4200000,8000000,16000000,18000000,21000000],
       "time": [43200,86400,172800,345600,561600,1036800,1144800,1296000],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -236,7 +244,8 @@
     "upgrade": {
       "cost": [1000000,2000000,3000000,3800000,4900000,6300000,8800000,17500000,19500000,21500000],
       "time": [64800,129600,259200,345600,453600,475200,604800,1036800,1209600,1382400],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -263,7 +272,8 @@
     "upgrade": {
       "cost": [1200000,1800000,2800000,3200000,4200000,5200000,7000000,8500000,18000000,20500000],
       "time": [43200,86400,172800,230400,302400,410400,518400,604800,1123200,1252800],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -290,7 +300,8 @@
     "upgrade": {
       "cost": [2000,5000,10000,20000,30000,63000,95000,150000,210000,310000],
       "time": [28800,57600,86400,172800,230400,302400,432000,604800,1036800,1123200],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -317,7 +328,8 @@
     "upgrade": {
       "cost": [4000,7000,10000,20000,37000,70000,95000,150000,175000,240000,335000],
       "time": [36000,72000,108000,172800,230400,302400,453600,604800,604800,1036800,1144800],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -344,7 +356,8 @@
     "upgrade": {
       "cost": [6000,10000,20000,32000,63000,110000,155000,240000,320000,340000],
       "time": [86400,172800,259200,345600,367200,453600,604800,1036800,1144800,1296000],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -371,7 +384,8 @@
     "upgrade": {
       "cost": [8000,12000,20000,37000,53000,77000,100000,125000,160000,230000,330000,350000],
       "time": [108000,216000,259200,324000,367200,432000,475200,561600,604800,1036800,1144800,1296000],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -398,7 +412,8 @@
     "upgrade": {
       "cost": [40000,58000,90000,125000,340000,360000],
       "time": [345600,410400,583200,648000,1209600,1382400],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -425,7 +440,8 @@
     "upgrade": {
       "cost": [28000,43000,85000,120000,160000],
       "time": [216000,345600,540000,604800,691200],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -452,7 +468,8 @@
     "upgrade": {
       "cost": [65000,88000,125000,170000,240000,335000],
       "time": [259200,302400,432000,604800,1036800,1144800],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -479,7 +496,8 @@
     "upgrade": {
       "cost": [2000000,2500000,3400000,4200000,5500000,7200000,16000000,18000000],
       "time": [172800,302400,345600,432000,540000,604800,950400,1123200],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -506,7 +524,8 @@
     "upgrade": {
       "cost": [2500000,3200000,3800000,5000000,5800000,8000000,16500000,18500000,20500000],
       "time": [172800,259200,345600,367200,604800,691200,950400,1144800,1296000],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -533,7 +552,8 @@
     "upgrade": {
       "cost": [],
       "time": [],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 8,
     "seasonal": false,
@@ -560,7 +580,8 @@
     "upgrade": {
       "cost": [],
       "time": [],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 8,
     "seasonal": false,
@@ -587,7 +608,8 @@
     "upgrade": {
       "cost": [],
       "time": [],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 7,
     "seasonal": false,
@@ -614,38 +636,12 @@
     "upgrade": {
       "cost": [],
       "time": [],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 9,
     "seasonal": false,
     "levels": [0,9,12,12,12,12,12,12,12,12,12,12,12,12,12,12]
-  },
-  {
-    "id": 30,
-    "name": "Ice Wizard",
-    "housingSpace": 4,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 5,
-      "cost": 270000,
-      "time": 64800,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 7
-    },
-    "trainingTime": 30,
-    "regenerationTimes": [],
-    "dps": [40,56,72,100,136,148,160,172,184,196,208,220],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [0,0,0,0,2,3,4,5,6,7,8,9,10,10,11,12]
   },
   {
     "id": 31,
@@ -668,7 +664,8 @@
     "upgrade": {
       "cost": [3500,7000,10000,90000,180000,300000,330000,700000,900000,1000000,1200000,2000000,2200000,3000000,3200000,3800000,4000000,4600000,5200000],
       "time": [300,900,18000,36000,54000,72000,86400,129600,172800,216000,302400,388800,475200,475200,518400,518400,561600,561600],
-      "resource": "Builder Elixir"
+      "resource": "Builder Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -695,7 +692,8 @@
     "upgrade": {
       "cost": [5000,8000,12000,100000,200000,320000,350000,800000,1000000,1100000,1300000,2100000,2300000,3100000,3300000,3900000,4100000,4700000,5300000],
       "time": [180,600,1800,21600,39600,57600,75600,86400,129600,172800,216000,302400,388800,475200,475200,518400,518400,561600,561600],
-      "resource": "Builder Elixir"
+      "resource": "Builder Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -722,7 +720,8 @@
     "upgrade": {
       "cost": [50000,110000,220000,330000,360000,900000,1100000,1300000,1500000,2300000,2500000,3300000,3500000,4000000,4200000,4800000,5400000],
       "time": [14400,28800,43200,64800,86400,129600,172800,172800,216000,302400,388800,475200,475200,518400,518400,561600,561600],
-      "resource": "Builder Elixir"
+      "resource": "Builder Elixir",
+      "costAndResources": []
     },
     "minLevel": 3,
     "seasonal": false,
@@ -749,7 +748,8 @@
     "upgrade": {
       "cost": [60000,120000,240000,350000,380000,1000000,1200000,1300000,1500000,2300000,2500000,3300000,3500000,4000000,4200000,4800000,5400000],
       "time": [18000,36000,57600,72000,86400,129600,172800,172800,216000,302400,388800,475200,475200,518400,518400,561600,561600],
-      "resource": "Builder Elixir"
+      "resource": "Builder Elixir",
+      "costAndResources": []
     },
     "minLevel": 3,
     "seasonal": false,
@@ -776,7 +776,8 @@
     "upgrade": {
       "cost": [320000,340000,360000,900000,1000000,1200000,1400000,2200000,2400000,3200000,3400000,3900000,4100000,4700000,5300000],
       "time": [57600,72000,86400,129600,172800,172800,216000,302400,388800,475200,475200,518400,518400,561600,561600],
-      "resource": "Builder Elixir"
+      "resource": "Builder Elixir",
+      "costAndResources": []
     },
     "minLevel": 5,
     "seasonal": false,
@@ -803,7 +804,8 @@
     "upgrade": {
       "cost": [3600000,3800000,4000000,4600000,4800000,5600000,5800000],
       "time": [388800,475200,475200,518400,518400,561600,561600],
-      "resource": "Builder Elixir"
+      "resource": "Builder Elixir",
+      "costAndResources": []
     },
     "minLevel": 13,
     "seasonal": false,
@@ -830,7 +832,8 @@
     "upgrade": {
       "cost": [1000000,1100000,1200000,1400000,1600000,2400000,2600000,3400000,3600000,4100000,4300000,5300000,5700000],
       "time": [86400,129600,172800,172800,216000,302400,388800,475200,475200,518400,518400,561600,561600],
-      "resource": "Builder Elixir"
+      "resource": "Builder Elixir",
+      "costAndResources": []
     },
     "minLevel": 7,
     "seasonal": false,
@@ -857,7 +860,8 @@
     "upgrade": {
       "cost": [2400000,2600000,2800000,3600000,3800000,4300000,4500000,5500000,5700000],
       "time": [216000,302400,388800,475200,475200,518400,518400,561600,561600],
-      "resource": "Builder Elixir"
+      "resource": "Builder Elixir",
+      "costAndResources": []
     },
     "minLevel": 11,
     "seasonal": false,
@@ -884,7 +888,8 @@
     "upgrade": {
       "cost": [360000,380000,400000,1000000,1200000,1400000,1600000,2400000,2600000,3400000,3600000,4100000,4300000,5100000,5500000],
       "time": [57600,72000,86400,129600,172800,172800,216000,302400,388800,475200,475200,518400,518400,561600,561600],
-      "resource": "Builder Elixir"
+      "resource": "Builder Elixir",
+      "costAndResources": []
     },
     "minLevel": 5,
     "seasonal": false,
@@ -911,119 +916,12 @@
     "upgrade": {
       "cost": [1400000,1600000,1800000,2500000,2700000,3500000,3700000,4200000,4400000,5200000,5600000],
       "time": [172800,172800,216000,302400,388800,475200,475200,518400,518400,561600,561600],
-      "resource": "Builder Elixir"
+      "resource": "Builder Elixir",
+      "costAndResources": []
     },
     "minLevel": 9,
     "seasonal": false,
     "levels": [0,0,0,0,0,12,14,16,18,20]
-  },
-  {
-    "id": 45,
-    "name": "Battle Ram",
-    "housingSpace": 4,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 2,
-      "cost": 2500,
-      "time": 600,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 3
-    },
-    "trainingTime": 30,
-    "regenerationTimes": [],
-    "dps": [6000],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
-  },
-  {
-    "id": 47,
-    "name": "Royal Ghost",
-    "housingSpace": 8,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 5,
-      "cost": 270000,
-      "time": 64800,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 7
-    },
-    "trainingTime": 37,
-    "regenerationTimes": [],
-    "dps": [200,280,360,440,520,600,680],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [0,0,0,0,1,2,2,3,4,5,6,7,7,7,7,7]
-  },
-  {
-    "id": 48,
-    "name": "Pumpkin Barbarian",
-    "housingSpace": 1,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 1,
-      "cost": 100,
-      "time": 10,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 1
-    },
-    "trainingTime": 5,
-    "regenerationTimes": [],
-    "dps": [8,11,14,18,23,26,30],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [1,1,2,2,3,3,4,5,6,7,7,7,7,7,7,7]
-  },
-  {
-    "id": 50,
-    "name": "Giant Skeleton",
-    "housingSpace": 20,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 2,
-      "cost": 2500,
-      "time": 600,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 3
-    },
-    "trainingTime": 30,
-    "regenerationTimes": [],
-    "dps": [22,28,38,48,62,86,100,114,128,142,156],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [0,1,1,2,2,3,4,5,6,7,8,9,9,10,11,11]
   },
   {
     "id": 51,
@@ -1046,7 +944,8 @@
     "upgrade": {
       "cost": [3800000,5000000,8500000,15000000],
       "time": [345600,432000,691200,1123200],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -1073,7 +972,8 @@
     "upgrade": {
       "cost": [3800000,5000000,8500000],
       "time": [345600,432000,691200],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -1100,7 +1000,8 @@
     "upgrade": {
       "cost": [7000000,9000000,17100000,19000000],
       "time": [518400,604800,1036800,1188000],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -1127,7 +1028,8 @@
     "upgrade": {
       "cost": [],
       "time": [],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 7,
     "seasonal": false,
@@ -1154,7 +1056,8 @@
     "upgrade": {
       "cost": [],
       "time": [],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 7,
     "seasonal": false,
@@ -1181,7 +1084,8 @@
     "upgrade": {
       "cost": [],
       "time": [],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 8,
     "seasonal": false,
@@ -1208,7 +1112,8 @@
     "upgrade": {
       "cost": [55000,85000,100000,125000,240000,335000],
       "time": [244800,345600,432000,561600,950400,1144800],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -1235,38 +1140,12 @@
     "upgrade": {
       "cost": [6300000,7000000,9600000,18000000,20000000,22000000],
       "time": [432000,475200,777600,1036800,1209600,1382400],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,0,2,3,4,5,6,7]
-  },
-  {
-    "id": 61,
-    "name": "Skeleton Barrel",
-    "housingSpace": 5,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 4,
-      "cost": 120000,
-      "time": 43200,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 6
-    },
-    "trainingTime": 30,
-    "regenerationTimes": [],
-    "dps": [75,96,144,216,324,486,594,708,768],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [0,0,0,2,2,3,4,5,6,6,7,8,9,9,9,9]
   },
   {
     "id": 62,
@@ -1289,7 +1168,8 @@
     "upgrade": {
       "cost": [3800000,5000000,8500000,15000000],
       "time": [345600,432000,691200,1123200],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -1316,7 +1196,8 @@
     "upgrade": {
       "cost": [],
       "time": [],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 6,
     "seasonal": false,
@@ -1343,7 +1224,8 @@
     "upgrade": {
       "cost": [],
       "time": [],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 7,
     "seasonal": false,
@@ -1370,7 +1252,8 @@
     "upgrade": {
       "cost": [9600000,16500000,21500000],
       "time": [777600,1209600,1382400],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -1397,38 +1280,12 @@
     "upgrade": {
       "cost": [75000],
       "time": [518400],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 5,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,7,7,7,7,7,7,7,7]
-  },
-  {
-    "id": 67,
-    "name": "El Primo",
-    "housingSpace": 10,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 5,
-      "cost": 270000,
-      "time": 64800,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 7
-    },
-    "trainingTime": 60,
-    "regenerationTimes": [],
-    "dps": [120],
-    "upgrade": {
-      "cost": [120000],
-      "time": [734400],
-      "resource": "Dark Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1]
   },
   {
     "id": 70,
@@ -1451,38 +1308,12 @@
     "upgrade": {
       "cost": [4000000,4200000,4400000,5400000,5800000],
       "time": [475200,518400,518400,561600,561600],
-      "resource": "Builder Elixir"
+      "resource": "Builder Elixir",
+      "costAndResources": []
     },
     "minLevel": 15,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,18,20]
-  },
-  {
-    "id": 72,
-    "name": "Party Wizard",
-    "housingSpace": 4,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 5,
-      "cost": 270000,
-      "time": 64800,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 7
-    },
-    "trainingTime": 30,
-    "regenerationTimes": [],
-    "dps": [75,105,135,188,255,278,300,322,345,367,390],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [0,0,0,0,2,3,4,5,6,7,8,9,10,10,11,11]
   },
   {
     "id": 75,
@@ -1505,7 +1336,8 @@
     "upgrade": {
       "cost": [5000000,7000000,8500000],
       "time": [432000,648000,691200],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -1532,7 +1364,8 @@
     "upgrade": {
       "cost": [],
       "time": [],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 5,
     "seasonal": false,
@@ -1559,7 +1392,8 @@
     "upgrade": {
       "cost": [],
       "time": [],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 4,
     "seasonal": false,
@@ -1586,7 +1420,8 @@
     "upgrade": {
       "cost": [],
       "time": [],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 7,
     "seasonal": false,
@@ -1613,7 +1448,8 @@
     "upgrade": {
       "cost": [115000,145000],
       "time": [777600,864000],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -1640,7 +1476,8 @@
     "upgrade": {
       "cost": [],
       "time": [],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 9,
     "seasonal": false,
@@ -1667,7 +1504,8 @@
     "upgrade": {
       "cost": [],
       "time": [],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 8,
     "seasonal": false,
@@ -1694,7 +1532,8 @@
     "upgrade": {
       "cost": [4800000,6500000,8500000],
       "time": [432000,648000,691200],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -1721,7 +1560,8 @@
     "upgrade": {
       "cost": [7600000,10500000,13300000],
       "time": [648000,1036800,1080000],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -1748,38 +1588,12 @@
     "upgrade": {
       "cost": [8000000,11000000,14000000],
       "time": [864000,1036800,1080000],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4]
-  },
-  {
-    "id": 94,
-    "name": "Ram Rider",
-    "housingSpace": 12,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 1,
-      "cost": 100,
-      "time": 10,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 1
-    },
-    "trainingTime": 60,
-    "regenerationTimes": [],
-    "dps": [60,100,125,150,175,200,225,250,275,300,325],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [1,1,11,11,11,11,11,11,11,11,11,11,11,11,11,11]
   },
   {
     "id": 95,
@@ -1802,7 +1616,8 @@
     "upgrade": {
       "cost": [19500000,20500000],
       "time": [1123200,1209600],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -1829,7 +1644,8 @@
     "upgrade": {
       "cost": [180000,300000,340000],
       "time": [777600,1036800,1209600],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -1856,119 +1672,12 @@
     "upgrade": {
       "cost": [],
       "time": [],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 10,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12]
-  },
-  {
-    "id": 101,
-    "name": "Barcher",
-    "housingSpace": 3,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 1,
-      "cost": 100,
-      "time": 10,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 1
-    },
-    "trainingTime": 12,
-    "regenerationTimes": [],
-    "dps": [40,43,47,50,54,59,63,68,72,76],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [1,1,10,10,10,10,10,10,10,10,10,10,10,10,10,10]
-  },
-  {
-    "id": 102,
-    "name": "Witch Golem",
-    "housingSpace": 41,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 1,
-      "cost": 100,
-      "time": 10,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 1
-    },
-    "trainingTime": 300,
-    "regenerationTimes": [],
-    "dps": [130,143,156,169,182,195,208,221,234,247],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [1,1,10,10,10,10,10,10,10,10,10,10,10,10,10,10]
-  },
-  {
-    "id": 103,
-    "name": "Hog Wizard",
-    "housingSpace": 7,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 1,
-      "cost": 100,
-      "time": 10,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 1
-    },
-    "trainingTime": 66,
-    "regenerationTimes": [],
-    "dps": [57,85,113,141,169,197,225,253,281,309],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [1,1,10,10,10,10,10,10,10,10,10,10,10,10,10,10]
-  },
-  {
-    "id": 104,
-    "name": "Lavaloon",
-    "housingSpace": 23,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 1,
-      "cost": 100,
-      "time": 10,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 1
-    },
-    "trainingTime": 90,
-    "regenerationTimes": [],
-    "dps": [50,70,90,110,130,150,170,190,210,230],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [1,1,10,10,10,10,10,10,10,10,10,10,10,10,10,10]
   },
   {
     "id": 106,
@@ -1991,7 +1700,8 @@
     "upgrade": {
       "cost": [4400000,5400000,5800000],
       "time": [518400,561600,561600],
-      "resource": "Builder Elixir"
+      "resource": "Builder Elixir",
+      "costAndResources": []
     },
     "minLevel": 17,
     "seasonal": false,
@@ -2018,92 +1728,12 @@
     "upgrade": {
       "cost": [19000000,22000000],
       "time": [1036800,1209600],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3]
-  },
-  {
-    "id": 118,
-    "name": "C.O.O.K.I.E",
-    "housingSpace": 10,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 1,
-      "cost": 100,
-      "time": 10,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 1
-    },
-    "trainingTime": 60,
-    "regenerationTimes": [],
-    "dps": [8200,8400,8600,8800,9000,9200,9400,9600,9800,10000,10200],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [1,1,11,11,11,11,11,11,11,11,11,11,11,11,11,11]
-  },
-  {
-    "id": 119,
-    "name": "Firecracker",
-    "housingSpace": 8,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 1,
-      "cost": 100,
-      "time": 10,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 1
-    },
-    "trainingTime": 60,
-    "regenerationTimes": [],
-    "dps": [50,65,80,95,110,125,140,155,170,185,200],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [1,1,11,11,11,11,11,11,11,11,11,11,11,11,11,11]
-  },
-  {
-    "id": 120,
-    "name": "Water Dragon",
-    "housingSpace": 50,
-    "village": "home",
-    "category": "troop",
-    "subCategory": "troop",
-    "unlock": {
-      "hall": 1,
-      "cost": 100,
-      "time": 10,
-      "resource": "Elixir",
-      "building": "Barracks",
-      "buildingLevel": 1
-    },
-    "trainingTime": 360,
-    "regenerationTimes": [],
-    "dps": [115,135,155,175,195,215,235,255,275,295,315],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": 1,
-    "seasonal": true,
-    "levels": [1,1,11,11,11,11,11,11,11,11,11,11,11,11,11,11]
   },
   {
     "id": 0,
@@ -2126,9 +1756,10 @@
     "upgrade": {
       "cost": [50000,100000,200000,600000,1500000,2500000,4200000,6300000,16000000,18500000],
       "time": [14400,28800,43200,86400,259200,345600,518400,604800,1080000,1209600],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,4,4,4,5,6,7,8,9,9,9,10,11]
   },
@@ -2153,9 +1784,10 @@
     "upgrade": {
       "cost": [75000,150000,300000,900000,1800000,3000000,8500000,17000000,19000000],
       "time": [18000,36000,72000,129600,259200,345600,518400,1144800,1296000],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,3,4,5,6,7,7,7,8,8,9,10]
   },
@@ -2180,9 +1812,10 @@
     "upgrade": {
       "cost": [400000,800000,1600000,2400000,7000000],
       "time": [43200,86400,172800,345600,518400],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,4,5,5,5,5,6,6,6,6,6]
   },
@@ -2207,9 +1840,10 @@
     "upgrade": {
       "cost": [2000000,3400000,7200000,16500000],
       "time": [259200,345600,518400,1123200],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,2,3,3,3,4,4,5,5]
   },
@@ -2234,38 +1868,12 @@
     "upgrade": {
       "cost": [1200000,1700000,3000000,4200000,6000000,7000000],
       "time": [129600,223200,280800,345600,518400,604800],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,2,5,6,7,7,7,7,7]
-  },
-  {
-    "id": 4,
-    "name": "Santa's Surprise",
-    "housingSpace": 2,
-    "village": "home",
-    "category": "spell",
-    "subCategory": "spell",
-    "unlock": {
-      "hall": 5,
-      "cost": 150000,
-      "time": 28800,
-      "resource": "Elixir",
-      "building": "Spell Factory",
-      "buildingLevel": 1
-    },
-    "trainingTime": 360,
-    "regenerationTimes": [],
-    "dps": [],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": null,
-    "seasonal": true,
-    "levels": [0,0,0,0,11,11,11,11,11,11,11,11,11,11,11,11]
   },
   {
     "id": 9,
@@ -2288,9 +1896,10 @@
     "upgrade": {
       "cost": [10000,20000,43000,70000,110000,155000,230000,320000,350000],
       "time": [28800,86400,223200,345600,540000,604800,864000,1144800,1296000],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,2,3,4,5,6,7,8,9,10]
   },
@@ -2315,9 +1924,10 @@
     "upgrade": {
       "cost": [12000,24000,51000,84000],
       "time": [64800,129600,367200,669600],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,2,3,4,5,5,5,5,5,5]
   },
@@ -2342,9 +1952,10 @@
     "upgrade": {
       "cost": [16000,34000,60000,77000],
       "time": [129600,223200,432000,669600],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,2,4,5,5,5,5,5,5]
   },
@@ -2369,9 +1980,10 @@
     "upgrade": {
       "cost": [2100000,3400000,4200000,5600000,7200000,15500000,18000000],
       "time": [151200,259200,302400,345600,604800,777600,1144800],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,3,5,5,6,7,8,8]
   },
@@ -2396,37 +2008,12 @@
     "upgrade": {
       "cost": [22000,34000,50000,80000,100000,150000,320000],
       "time": [115200,223200,345600,367200,475200,604800,1144800],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,1,3,4,6,7,7,8,8]
-  },
-  {
-    "id": 22,
-    "name": "Birthday Boom",
-    "housingSpace": 2,
-    "village": "home",
-    "category": "spell",
-    "subCategory": "spell",
-    "unlock": {
-      "hall": 5,
-      "cost": 150000,
-      "time": 28800,
-      "resource": "Elixir",
-      "building": "Spell Factory",
-      "buildingLevel": 1
-    },
-    "trainingTime": 360,
-    "regenerationTimes": [],
-    "dps": [],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "seasonal": true,
-    "levels": [0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1]
   },
   {
     "id": 28,
@@ -2449,9 +2036,10 @@
     "upgrade": {
       "cost": [26000,51000,70000,95000,330000],
       "time": [151200,302400,453600,518400,1166400],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,3,4,5,5,5,6,6]
   },
@@ -2476,9 +2064,10 @@
     "upgrade": {
       "cost": [5600000,7500000,9000000],
       "time": [475200,518400,820800],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,0,2,3,4,4,4,4]
   },
@@ -2503,38 +2092,12 @@
     "upgrade": {
       "cost": [7500000,14000000,17500000,19500000],
       "time": [820800,993600,1144800,1296000],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,5]
-  },
-  {
-    "id": 73,
-    "name": "Bag of Frostmites",
-    "housingSpace": 1,
-    "village": "home",
-    "category": "spell",
-    "subCategory": "spell",
-    "unlock": {
-      "hall": 5,
-      "cost": 150000,
-      "time": 28800,
-      "resource": "Elixir",
-      "building": "Spell Factory",
-      "buildingLevel": 1
-    },
-    "trainingTime": 180,
-    "regenerationTimes": [],
-    "dps": [],
-    "upgrade": {
-      "cost": [],
-      "time": [],
-      "resource": "Elixir"
-    },
-    "minLevel": null,
-    "seasonal": true,
-    "levels": [0,0,0,0,11,11,11,11,11,11,11,11,11,11,11,11]
   },
   {
     "id": 0,
@@ -2558,7 +2121,8 @@
     "upgrade": {
       "cost": [5000,6000,7000,8000,9000,10000,11000,12000,13000,14000,15000,16000,17000,18500,20000,21500,23000,24500,26000,28000,29000,31000,32000,34000,35000,37000,38000,40000,41000,43000,44000,46000,47000,49000,50000,52000,53000,55000,56000,60000,64000,68000,72000,76000,80000,84000,88000,92000,96000,100000,105000,110000,115000,120000,125000,130000,135000,140000,145000,150000,155000,160000,165000,170000,175000,180000,185000,190000,195000,200000,205000,210000,215000,220000,225000,230000,235000,240000,245000,250000,255000,260000,265000,270000,275000,278000,280000,282000,285000,290000,300000,310000,320000,330000],
       "time": [14400,21600,28800,36000,43200,50400,57600,64800,72000,79200,86400,86400,86400,86400,86400,129600,129600,129600,172800,172800,172800,172800,172800,216000,216000,216000,216000,216000,259200,259200,259200,259200,259200,302400,302400,302400,302400,302400,345600,345600,345600,345600,345600,432000,432000,432000,432000,432000,432000,475200,475200,475200,475200,475200,496800,496800,496800,496800,496800,518400,518400,518400,518400,518400,561600,561600,561600,561600,561600,604800,604800,604800,604800,604800,648000,648000,648000,648000,648000,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -2586,7 +2150,8 @@
     "upgrade": {
       "cost": [10000,11000,12000,13000,14000,15000,16000,17000,18000,19000,20000,21000,22000,23000,24000,25000,27000,28000,30000,31000,33000,34000,36000,37000,39000,40000,42000,43000,45000,47000,49000,51000,53000,55000,57000,59000,61000,63000,65000,68000,72000,75000,79000,82000,86000,89000,93000,98000,103000,108000,113000,118000,123000,128000,133000,138000,143000,148000,153000,158000,163000,168000,173000,178000,183000,188000,193000,198000,203000,208000,214000,221000,229000,234000,239000,244000,249000,254000,259000,264000,268000,272000,276000,280000,282000,284000,286000,288000,290000,300000,310000,320000,330000,340000],
       "time": [14400,21600,28800,36000,43200,50400,57600,64800,72000,79200,86400,86400,86400,86400,86400,129600,129600,129600,172800,172800,172800,172800,172800,216000,216000,216000,216000,216000,259200,259200,259200,259200,259200,302400,302400,302400,302400,302400,345600,345600,345600,345600,345600,432000,432000,432000,432000,432000,432000,475200,475200,475200,475200,475200,496800,496800,496800,496800,496800,518400,518400,518400,518400,518400,561600,561600,561600,561600,561600,604800,604800,604800,604800,604800,648000,648000,648000,648000,648000,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -2614,7 +2179,8 @@
     "upgrade": {
       "cost": [1000000,1100000,1200000,1400000,1500000,1700000,1800000,2000000,2300000,2700000,3000000,3400000,3700000,4100000,4400000,4800000,5100000,5500000,6000000,6500000,6600000,6700000,6800000,6900000,7000000,7100000,7200000,7300000,7400000,7500000,7600000,7700000,7800000,7900000,8000000,8100000,8200000,8300000,8400000,8500000,8800000,9100000,9400000,9700000,10000000,10300000,10600000,11000000,11500000,12000000,12500000,13000000,13500000,14000000,14500000,15000000,15500000,16000000,16200000,16700000,16900000,17100000,17300000,17500000,18000000,18500000,19000000,19500000,20000000],
       "time": [7200,14400,28800,43200,57600,79200,86400,86400,129600,129600,172800,172800,172800,172800,237600,237600,237600,237600,237600,259200,259200,259200,259200,259200,345600,345600,345600,345600,345600,432000,432000,432000,432000,432000,518400,518400,518400,518400,518400,540000,540000,540000,540000,540000,583200,583200,583200,583200,583200,626400,626400,626400,626400,626400,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200],
-      "resource": "Elixir"
+      "resource": "Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -2642,7 +2208,8 @@
     "upgrade": {
       "cost": [1000000,1100000,1200000,1300000,1500000,1600000,1700000,1800000,1900000,2100000,2200000,2300000,2400000,2500000,2600000,2700000,2800000,2900000,3000000,3100000,3200000,3300000,3400000,3500000,3600000,3700000,3800000,3900000,4000000,4100000,4200000,4300000,4400000,4500000],
       "time": [43200,43200,86400,86400,129600,129600,172800,172800,216000,216000,259200,259200,302400,302400,345600,345600,345600,345600,345600,432000,432000,432000,432000,432000,518400,518400,518400,518400,518400,604800,604800,604800,604800,604800],
-      "resource": "Builder Elixir"
+      "resource": "Builder Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -2670,7 +2237,8 @@
     "upgrade": {
       "cost": [70000,75000,80000,90000,100000,110000,120000,130000,140000,150000,160000,165000,170000,175000,180000,185000,190000,195000,200000,205000,210000,215000,220000,225000,230000,235000,240000,245000,250000,260000,265000,270000,275000,280000,285000,290000,295000,300000,305000,315000,325000,335000,345000,355000],
       "time": [28800,43200,57600,72000,158400,237600,280800,324000,367200,388800,432000,432000,432000,475200,475200,475200,518400,518400,518400,561600,561600,561600,561600,561600,626400,626400,626400,626400,626400,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
     "minLevel": 1,
     "seasonal": false,
@@ -2698,7 +2266,8 @@
     "upgrade": {
       "cost": [2600000,2700000,2800000,2900000,3000000,3100000,3200000,3300000,3400000,3500000,3600000,3700000,3800000,3900000,4000000,4100000,4200000,4300000,4400000,4500000],
       "time": [432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,518400,518400,518400,518400,518400,604800,604800,604800,604800,604800],
-      "resource": "Builder Elixir"
+      "resource": "Builder Elixir",
+      "costAndResources": []
     },
     "minLevel": 15,
     "seasonal": false,
@@ -2726,9 +2295,10 @@
     "upgrade": {
       "cost": [100000,110000,125000,135000,150000,160000,175000,185000,200000,215000,230000,245000,260000,275000],
       "time": [259200,345600,388800,432000,475200,518400,561600,604800,648000,691200,691200,691200,691200,691200],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10,15,15]
   },
@@ -2754,9 +2324,10 @@
     "upgrade": {
       "cost": [140000,155000,175000,190000,210000,215000,225000,230000,240000,250000,260000,270000,280000,290000],
       "time": [259200,345600,388800,432000,475200,518400,561600,604800,648000,691200,691200,691200,691200,691200],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10,15,15]
   },
@@ -2782,9 +2353,10 @@
     "upgrade": {
       "cost": [115000,130000,140000,155000,165000,180000,190000,205000,215000],
       "time": [259200,345600,388800,432000,475200,518400,561600,604800,648000],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10]
   },
@@ -2810,9 +2382,10 @@
     "upgrade": {
       "cost": [180000,190000,200000,210000,220000,230000,240000,250000,260000],
       "time": [259200,345600,388800,432000,475200,518400,561600,604800,648000],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10]
   },
@@ -2838,9 +2411,10 @@
     "upgrade": {
       "cost": [195000,205000,210000,220000,225000,235000,240000,250000,255000],
       "time": [259200,345600,432000,475200,518400,561600,604800,648000,691200],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10]
   },
@@ -2866,9 +2440,10 @@
     "upgrade": {
       "cost": [190000,195000,200000,210000,215000,225000,230000,240000,245000],
       "time": [259200,345600,432000,475200,518400,561600,604800,648000,691200],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10]
   },
@@ -2894,9 +2469,10 @@
     "upgrade": {
       "cost": [185000,195000,200000,210000,215000,225000,230000,240000,245000],
       "time": [259200,345600,432000,475200,518400,561600,604800,648000,691200],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10]
   },
@@ -2922,9 +2498,10 @@
     "upgrade": {
       "cost": [185000,190000,200000,210000,215000,225000,235000,240000,250000],
       "time": [259200,345600,432000,475200,518400,561600,604800,648000,691200],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10]
   },
@@ -2950,10 +2527,2679 @@
     "upgrade": {
       "cost": [225000,235000,245000,255000,265000,275000,285000,295000,315000],
       "time": [259200,345600,432000,475200,518400,561600,604800,648000,691200],
-      "resource": "Dark Elixir"
+      "resource": "Dark Elixir",
+      "costAndResources": []
     },
-    "minLevel": null,
+    "minLevel": 1,
     "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10]
+  },
+  {
+    "id": 0,
+    "name": "Barbarian Puppet",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 8,
+      "cost": 750000,
+      "time": 86400,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 1
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18]
+  },
+  {
+    "id": 1,
+    "name": "Rage Vial",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 8,
+      "cost": 750000,
+      "time": 86400,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 1
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [17,22,27,32,37,42,48,54,60,66,72,79,86,94,104,112,120,128],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18]
+  },
+  {
+    "id": 2,
+    "name": "Archer Puppet",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 8,
+      "cost": 750000,
+      "time": 86400,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 1
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [26,34,42,49,55,62,71,80,90,100,109,115,122,127,132,136,140,144],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18]
+  },
+  {
+    "id": 3,
+    "name": "Invisibility Vial",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 8,
+      "cost": 750000,
+      "time": 86400,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 1
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18]
+  },
+  {
+    "id": 4,
+    "name": "Eternal Tome",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 8,
+      "cost": 750000,
+      "time": 86400,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 1
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18]
+  },
+  {
+    "id": 5,
+    "name": "Life Gem",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 8,
+      "cost": 750000,
+      "time": 86400,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 1
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [10,12,14,16,18,20,22,24,28,32,38,42,46,50,54,58,62,66],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18]
+  },
+  {
+    "id": 6,
+    "name": "Seeking Shield",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 8,
+      "cost": 750000,
+      "time": 86400,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 1
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18]
+  },
+  {
+    "id": 7,
+    "name": "Royal Gem",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 8,
+      "cost": 750000,
+      "time": 86400,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 1
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18]
+  },
+  {
+    "id": 8,
+    "name": "Earthquake Boots",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 8,
+      "cost": 750000,
+      "time": 86400,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 1
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [13,15,17,19,21,23,26,28,32,40,48,55,63,71,79,86,94,102],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18]
+  },
+  {
+    "id": 10,
+    "name": "Giant Gauntlet",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 8,
+      "cost": 750000,
+      "time": 86400,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 1
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [17,20,23,26,29,32,34,37,43,53,63,74,84,94,104,115,125,135,140,145,150,155,160,165,170,175,180],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700,2800,2900,3000,3100,3200,3300,3400,3500,3600],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          },
+          {
+            "resource": "Starry Ore",
+            "cost": 10
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          },
+          {
+            "resource": "Starry Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          },
+          {
+            "resource": "Starry Ore",
+            "cost": 30
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          },
+          {
+            "resource": "Starry Ore",
+            "cost": 50
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2800
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 3000
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          },
+          {
+            "resource": "Starry Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 3100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 3200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 3300
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          },
+          {
+            "resource": "Starry Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 3400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 3500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 3600
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          },
+          {
+            "resource": "Starry Ore",
+            "cost": 150
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27]
+  },
+  {
+    "id": 11,
+    "name": "Vampstache",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 10,
+      "cost": 2300000,
+      "time": 259200,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 3
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [9,10,12,13,15,16,18,19,22,27,32,37,42,48,53,58,63,68],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,0,0,12,12,15,15,18,18,18]
+  },
+  {
+    "id": 15,
+    "name": "Frozen Arrow",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 8,
+      "cost": 750000,
+      "time": 86400,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 1
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [35,40,45,50,55,60,66,72,78,85,92,99,105,111,117,122,127,132,136,140,144,148,152,156,160,164,168],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700,2800,2900,3000,3100,3200,3300,3400,3500,3600],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          },
+          {
+            "resource": "Starry Ore",
+            "cost": 10
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          },
+          {
+            "resource": "Starry Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          },
+          {
+            "resource": "Starry Ore",
+            "cost": 30
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          },
+          {
+            "resource": "Starry Ore",
+            "cost": 50
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2800
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 3000
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          },
+          {
+            "resource": "Starry Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 3100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 3200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 3300
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          },
+          {
+            "resource": "Starry Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 3400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 3500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 3600
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          },
+          {
+            "resource": "Starry Ore",
+            "cost": 150
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27]
+  },
+  {
+    "id": 17,
+    "name": "Giant Arrow",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 9,
+      "cost": 1700000,
+      "time": 172800,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 2
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [20,23,27,30,33,37,40,43,50,59,68,77,86,96,105,114,123,132],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,0,9,12,12,15,15,18,18,18]
+  },
+  {
+    "id": 20,
+    "name": "Healer Puppet",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 12,
+      "cost": 5500000,
+      "time": 432000,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 5
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,15,15,18,18,18]
+  },
+  {
+    "id": 24,
+    "name": "Rage Gem",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 11,
+      "cost": 3000000,
+      "time": 345600,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 4
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [12,14,16,18,20,22,24,26,30,36,43,49,56,62,69,75,82,88],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,0,0,0,12,15,15,18,18,18]
+  },
+  {
+    "id": 34,
+    "name": "Healing Tome",
+    "housingSpace": 0,
+    "village": "home",
+    "category": "equipment",
+    "subCategory": "equipment",
+    "unlock": {
+      "hall": 13,
+      "cost": 8500000,
+      "time": 518400,
+      "resource": "Gold",
+      "building": "Blacksmith",
+      "buildingLevel": 6
+    },
+    "trainingTime": 0,
+    "regenerationTimes": [],
+    "dps": [],
+    "upgrade": {
+      "cost": [120,240,400,600,840,1120,1440,1800,1900,2000,2100,2200,2300,2400,2500,2600,2700],
+      "time": [],
+      "resource": "Shiny Ore",
+      "costAndResources": [
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 240
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 20
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 840
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 100
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1120
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1440
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1800
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 1900
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2000
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2100
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 400
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2200
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2300
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2400
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2500
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2600
+          }
+        ],
+        [
+          {
+            "resource": "Shiny Ore",
+            "cost": 2700
+          },
+          {
+            "resource": "Glowy Ore",
+            "cost": 600
+          }
+        ]
+      ]
+    },
+    "minLevel": 1,
+    "seasonal": false,
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,15,18,18,18]
   }
 ]

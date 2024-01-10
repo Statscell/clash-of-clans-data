@@ -5,26 +5,29 @@ const RAW_CHARACTERS = require('../../raw/characters.json');
 const RAW_SPELLS = require('../../raw/spells.json');
 const RAW_HEROES = require('../../raw/heroes.json');
 const RAW_PETS = require('../../raw/pets.json');
+const HERO_EQUIPMENTS = require('../../raw/character_items.json');
 const RAW_BUILDINGS = require('../../raw/buildings.json');
 
-const { getResourceName, getTextValue, getID } = require('../utils');
+const { getResourceName, getTextValue, getID, getResourceAndCost } = require('../utils');
 
 const { maxTH, maxBH } = require('../../config.json');
-
 const TYPES = {
 	TROOPS: 0,
 	SPELLS: 1,
 	HEROES: 2,
-	PETS: 3
+	PETS: 3,
+	EQUIPMENT: 4
 };
 
-function parseStats() {
+// eslint-disable-next-line require-await
+async function parseStats() {
 	const troopsInfo = _parseStats(RAW_CHARACTERS, TYPES.TROOPS);
 	const spellsInfo = _parseStats(RAW_SPELLS, TYPES.SPELLS);
 	const heroesInfo = _parseStats(RAW_HEROES, TYPES.HEROES);
 	const petsInfo = _parseStats(RAW_PETS, TYPES.PETS);
+	const equipmentsInfo = _parseStats(HERO_EQUIPMENTS, TYPES.EQUIPMENT);
 
-	const outputItems = [].concat(troopsInfo, spellsInfo, heroesInfo, petsInfo);
+	const outputItems = [].concat(troopsInfo, spellsInfo, heroesInfo, petsInfo, equipmentsInfo);
 
 	if (!existsSync('./output')) mkdirSync('./output');
 	writeFileSync('./output/troopUpgradeStats.json', formatJson(outputItems, { type: 'space', size: 2 }));
@@ -48,7 +51,7 @@ function _parseStats(inputItems, type) {
 		}
 
 		// Ignoring all the disabled characters
-		if ((type !== TYPES.PETS && character.DisableProduction === true) || (type !== TYPES.TROOPS && character.EnabledBySuperLicence === true) || character.Deprecated === true || character.IsSecondaryTroop === true) {
+		if ((type !== TYPES.PETS && character.DisableProduction === true) || (type !== TYPES.TROOPS && character.EnabledBySuperLicence === true) || character.Deprecated === true || character.IsSecondaryTroop === true || character.EnabledByCalendar === true) {
 			validCharacter.name = '';
 			continue;
 		}
@@ -57,11 +60,19 @@ function _parseStats(inputItems, type) {
 			? 'builderBase'
 			: 'home';
 
-		const upgradeTime = formatUpdateTime(character.UpgradeTimeH, character.UpgradeTimeM);
-		const upgradeCost = character.UpgradeCost === ''
+		const upgradeTime = type === TYPES.EQUIPMENT
 			? null
-			: parseInt(character.UpgradeCost);
-		const dps = character.DPS;
+			: formatUpdateTime(character.UpgradeTimeH, character.UpgradeTimeM);
+		const upgradeCost = type === TYPES.EQUIPMENT
+			? parseInt(character.UpgradeCosts)
+			: character.UpgradeCost === ''
+				? null
+				: parseInt(character.UpgradeCost);
+		const upgradeResourceAndCost = type === TYPES.EQUIPMENT
+			? getResourceAndCost(character.UpgradeCosts, character.UpgradeResources)
+			: null;
+
+		const dps = character.DPS || 0;
 		const regenerationTime = type === TYPES.HEROES
 			? character.RegenerationTimeMinutes * 60
 			: null;
@@ -87,21 +98,32 @@ function _parseStats(inputItems, type) {
 				unlockValues.building = getTextValue(heroAltar.TID);
 				unlockValues.buildingLevel = 1;
 			}
-			console.log(character.TID, character.VisualLevel, hallLevel);
 		} else {
 			const productionBuildingType = type === TYPES.SPELLS
 				? 'SpellForgeLevel'
 				: type === TYPES.PETS
 					? 'LaboratoryLevel'
-					: 'BarrackLevel';
+					: type === TYPES.EQUIPMENT
+						? 'RequiredBlacksmithLevel'
+						: 'BarrackLevel';
+
+
 			if (character.Name !== '' && character[productionBuildingType] !== '') {
-				// some wierd fix.. because the pets file sucks
+				// some weird fix.. because the pets file sucks
 				const productionBuildingField = type === TYPES.PETS
 					? 'Pet Shop'
-					: character.ProductionBuilding;
+					: type === TYPES.EQUIPMENT
+						? 'Blacksmith'
+						: character.ProductionBuilding;
 				// Resetting hall level to 1 for new troop
 				hallLevel = 1;
-				const _build = RAW_BUILDINGS.find(build => build.ExportName === `${productionBuilding[productionBuildingField]}${character[productionBuildingType]}`);
+				const _build = RAW_BUILDINGS.find(build => {
+					if (type === TYPES.EQUIPMENT) {
+						const buildingLevel = character[productionBuildingType];
+						return build.BuildingLevel === buildingLevel && build.ExportName.includes(`${productionBuilding[productionBuildingField]}`);
+					}
+					return build.ExportName === `${productionBuilding[productionBuildingField]}${character[productionBuildingType]}`;
+				});
 				// unlock Values
 				unlockValues.time = formatUnlockTime(_build.BuildTimeD, _build.BuildTimeH, _build.BuildTimeM, _build.BuildTimeS);
 				unlockValues.cost = _build.BuildCost;
@@ -110,6 +132,7 @@ function _parseStats(inputItems, type) {
 				unlockValues.building = getTextValue(_buildLvl1.TID);
 				unlockValues.hall = _build.TownHallLevel || _buildLvl1.TownHallLevel;
 				unlockValues.buildingLevel = _build.BuildingLevel || _buildLvl1.BuildingLevel;
+				// console.log(unlockValues);
 			}
 
 			// Getting required TH level for current character level
@@ -119,12 +142,22 @@ function _parseStats(inputItems, type) {
 					: validCharacter.village === 'home'
 						? 'Lab'
 						: 'Lab2';
-				// console.log(character.TID, `${labBuilding[labBuildName]}${character.LaboratoryLevel}`, character.LaboratoryLevel);
 				const labThRequirement = RAW_BUILDINGS
 					.find(build => build.ExportName === `${labBuilding[labBuildName]}${character.LaboratoryLevel || 1}`).TownHallLevel;
 				hallLevel = unlockValues.hall
 					? Math.max(unlockValues.hall, hallLevel)
 					: Math.max(hallLevel, labThRequirement);
+			}
+
+			if (!isNaN(character.RequiredBlacksmithLevel)) {
+				const blRequirement = RAW_BUILDINGS
+					.find(build => {
+						const buildingLevel = character[productionBuildingType];
+						return build.BuildingLevel === buildingLevel && build.ExportName.includes(`${productionBuilding['Blacksmith']}`);
+					}).TownHallLevel;
+				hallLevel = unlockValues.hall
+					? Math.max(unlockValues.hall, hallLevel)
+					: Math.max(hallLevel, blRequirement);
 			}
 		}
 
@@ -138,7 +171,9 @@ function _parseStats(inputItems, type) {
 				? 'hero'
 				: type === TYPES.SPELLS
 					? 'spell'
-					: 'troop';
+					: type === TYPES.EQUIPMENT
+						? 'equipment'
+						: 'troop';
 			const subCategory = [TYPES.TROOPS, TYPES.PETS].includes(type)
 				? unlockValues.building === 'Workshop'
 					? 'siege'
@@ -152,13 +187,13 @@ function _parseStats(inputItems, type) {
 				_name: character.Name,
 				id: getID(character.TID, subCategory),
 				name: getTextValue(character.TID),
-				housingSpace: character.HousingSpace,
+				housingSpace: character.HousingSpace || 0,
 				village,
 				category,
 				subCategory,
 				unlock: unlockValues,
 				resourceType: getResourceName(character.TrainingResource),
-				trainingTime: ![TYPES.HEROES, TYPES.PETS].includes(type)
+				trainingTime: ![TYPES.HEROES, TYPES.PETS, TYPES.EQUIPMENT].includes(type)
 					? character.TrainingTime
 					: 0,
 				regenerationTimes: type === TYPES.HEROES
@@ -174,13 +209,17 @@ function _parseStats(inputItems, type) {
 					time: upgradeTime
 						? [upgradeTime]
 						: [],
-					resource: getResourceName(character.UpgradeResource)
+					resource: getResourceName(character.UpgradeResource || character.UpgradeResources),
+					costAndResources: upgradeResourceAndCost?.length
+						? [upgradeResourceAndCost]
+						: []
 				},
-				maxLevel: character.VisualLevel,
-				minLevel: character.VisualLevel,
+				maxLevel: character.VisualLevel || 1,
+				minLevel: character.VisualLevel || 1,
 				hallLevels: [hallLevel],
 				seasonal: character.EnabledByCalendar === true
 			});
+
 		} else {
 			if (validCharacter.name === '') continue;
 			const foundItem = outputList.find(itm => itm._name === validCharacter.name && itm.village === validCharacter.village);
@@ -190,9 +229,10 @@ function _parseStats(inputItems, type) {
 			if (regenerationTime) foundItem.regenerationTimes.push(regenerationTime);
 			if (upgradeCost) foundItem.upgrade.cost.push(upgradeCost);
 			if (upgradeTime) foundItem.upgrade.time.push(upgradeTime);
+			if (upgradeResourceAndCost?.length) foundItem.upgrade.costAndResources.push(upgradeResourceAndCost);
 			foundItem.hallLevels.push(hallLevel);
-			foundItem.maxLevel = Math.max(foundItem.maxLevel, character.VisualLevel);
-			foundItem.minLevel = Math.min(foundItem.minLevel, character.VisualLevel);
+			foundItem.maxLevel = Math.max(foundItem.maxLevel, character.VisualLevel || 1);
+			foundItem.minLevel = Math.min(foundItem.minLevel, character.VisualLevel || 1);
 		}
 	}
 
@@ -251,7 +291,8 @@ const productionBuilding = {
 	'SiegeWorkshop': 'siegeWorkshop_lvl',
 	'Spell Forge': 'spell_factory_lvl',
 	'Mini Spell Factory': 'mini_spell_distillery_lvl',
-	'Pet Shop': 'pet_house_lvl'
+	'Pet Shop': 'pet_house_lvl',
+	'Blacksmith': 'blacksmith_lvl'
 };
 
 const labBuilding = {

@@ -4,6 +4,7 @@ const { parser } = require('../config.json');
 const { convert } = require('./csv2json');
 const { resolve } = require('path');
 
+
 async function decompress() {
 	for await (const path of ['raw']) {
 		console.log(`Decompressing files in ${path}`);
@@ -25,13 +26,22 @@ async function main() {
 	// Parsing upgrade stats
 	if (parser.upgradeStats) {
 		const { run } = require('./parsers/upgradeStats');
-		run();
+
+		try {
+			await run();
+		} catch (error) {
+			console.log(error);
+		}
 	}
 
 	// super troops info
 	if (parser.superTroops) {
 		const { run } = require('./parsers/superTroops');
-		run();
+		try {
+			await run();
+		} catch (error) {
+			console.log(error);
+		}
 	}
 }
 

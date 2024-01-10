@@ -5,6 +5,7 @@ const RAW_CHARACTERS = require('../raw/characters.json');
 const RAW_SPELLS = require('../raw/spells.json');
 const RAW_PETS = require('../raw/pets.json');
 const RAW_HEROES = require('../raw/heroes.json');
+const HERO_EQUIPMENTS = require('../raw/character_items.json');
 
 function getTextValue(id) {
 	const found = RAW_TEXTS.find(field => field.TID === id) ?? RAW_TEXTS_PATCH.find(field => field.TID === id);
@@ -20,12 +21,24 @@ function getResourceName(id) {
 		: id;
 }
 
+function getResourceAndCost(costs, resourceIds) {
+	const _costs = costs.toString().split(';').map((c) => c.trim()).map((c) => Number(c));
+	const resources = RAW_RESOURCES.filter(field => resourceIds.split(';').map((t) => t.trim()).includes(field.Name));
+	return resources.map((resource, i) => {
+		return {
+			resource: getTextValue(resource.AltTID ?? resource.TID),
+			cost: _costs[i],
+		};
+	});
+}
+
 function getID(TID, type) {
 	let list = null;
 	if (type === 'troop' || type === 'siege') list = RAW_CHARACTERS;
 	else if (type === 'spell') list = RAW_SPELLS;
 	else if (type === 'pet') list = RAW_PETS;
 	else if (type === 'hero') list = RAW_HEROES;
+	else if (type === 'equipment') list = HERO_EQUIPMENTS;
 
 	if (!list) return null;
 
@@ -36,4 +49,4 @@ function getID(TID, type) {
 		.indexOf(TID);
 }
 
-module.exports = { getResourceName, getTextValue, getID };
+module.exports = { getResourceName, getTextValue, getID, getResourceAndCost };
