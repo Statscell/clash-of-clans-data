@@ -1,17 +1,23 @@
 {
-  "name": "clash-of-clans-data",
-  "version": "1.4.2",
-  "description": "Data parser and formatter for clash of clans",
-  "main": "src/index.js",
-  "repository": "https://github.com/Statscell/clash-of-clans-data",
-  "author": "Santosh Bhandari <contact@santoshb.com.np>",
-  "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "csvtojson": "^2.0.10",
-    "json-format": "^1.0.1"
-  },
-  "devDependencies": {
-    "eslint": "^7.24.0"
-  }
+	"name": "clash-of-clans-data",
+	"version": "14.211.13",
+	"description": "Data parser and formatter for Clash of Clans",
+	"main": "src/index.js",
+	"repository": "https://github.com/Statscell/clash-of-clans-data",
+	"author": "Santosh Bhandari <contact@santoshb.com.np>",
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+		"csvtojson": "^2.0.10",
+		"json-format": "^1.0.1",
+		"sc-compression": "^1.0.2"
+	},
+	"devDependencies": {
+		"eslint": "^7.24.0",
+		"rimraf": "^3.0.2"
+	},
+	"scripts": {
+		"start": "node src/index.js --decompress",
+		"clean": "rimraf raw/*.json"
+	}
 }

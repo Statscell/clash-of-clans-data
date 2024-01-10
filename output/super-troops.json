@@ -154,5 +154,41 @@
     "resource": "Dark Elixir",
     "resourceCost": 25000,
     "housingSpace": 30
+  },
+  {
+    "name": "Super Dragon",
+    "id": 81,
+    "original": "Dragon",
+    "minOriginalLevel": 7,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000,
+    "housingSpace": 40
+  },
+  {
+    "name": "Super Miner",
+    "id": 56,
+    "original": "Miner",
+    "minOriginalLevel": 7,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000,
+    "housingSpace": 24
+  },
+  {
+    "name": "Super Hog Rider",
+    "id": 98,
+    "original": "Hog Rider",
+    "minOriginalLevel": 10,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000,
+    "housingSpace": 12
   }
 ]

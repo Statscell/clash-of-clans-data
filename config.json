@@ -3,6 +3,6 @@
 		"upgradeStats": true,
 		"superTroops": true
 	},
-	"maxTH": 14,
-	"maxBH": 9
+	"maxTH": 16,
+	"maxBH": 10
 }
