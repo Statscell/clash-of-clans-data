@@ -58,7 +58,7 @@ jobs:
       - id: upload-to-gcp
         uses: google-github-actions/upload-cloud-storage@v2
         with:
-          path: assets.zip
+          path: raw_json.zip
           predefinedAcl: publicRead
           destination: ${{ env.GCP_BUCKET_NAME }}
     
