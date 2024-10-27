@@ -8,7 +8,7 @@ const RAW_PETS = require('../../raw/pets.json');
 const HERO_EQUIPMENTS = require('../../raw/character_items.json');
 const RAW_BUILDINGS = require('../../raw/buildings.json');
 
-const { getResourceName, getTextValue, getID, getResourceAndCost } = require('../utils');
+const { getResourceName, getTextValue, getID, getResourceAndCost, getAllowedCharacters } = require('../utils');
 
 const { maxTH, maxBH } = require('../../config.json');
 const TYPES = {
@@ -71,6 +71,9 @@ function _parseStats(inputItems, type) {
 		const upgradeResourceAndCost = type === TYPES.EQUIPMENT
 			? getResourceAndCost(character.UpgradeCosts, character.UpgradeResources)
 			: null;
+		const allowedCharacters = type === TYPES.EQUIPMENT
+			? getAllowedCharacters(character.AllowedCharacters)
+			: [];
 
 		const dps = character.DPS || 0;
 		const regenerationTime = type === TYPES.HEROES
@@ -185,6 +188,7 @@ function _parseStats(inputItems, type) {
 			// Adding info
 			outputList.push({
 				_name: character.Name,
+				tid: character.TID,
 				id: getID(character.TID, subCategory),
 				name: getTextValue(character.TID),
 				housingSpace: character.HousingSpace || 0,
@@ -210,10 +214,11 @@ function _parseStats(inputItems, type) {
 						? [upgradeTime]
 						: [],
 					resource: getResourceName(character.UpgradeResource || character.UpgradeResources),
-					costAndResources: upgradeResourceAndCost?.length
+					resources: upgradeResourceAndCost?.length
 						? [upgradeResourceAndCost]
 						: []
 				},
+				allowedCharacters,
 				maxLevel: character.VisualLevel || 1,
 				minLevel: character.VisualLevel || 1,
 				hallLevels: [hallLevel],
@@ -229,7 +234,7 @@ function _parseStats(inputItems, type) {
 			if (regenerationTime) foundItem.regenerationTimes.push(regenerationTime);
 			if (upgradeCost) foundItem.upgrade.cost.push(upgradeCost);
 			if (upgradeTime) foundItem.upgrade.time.push(upgradeTime);
-			if (upgradeResourceAndCost?.length) foundItem.upgrade.costAndResources.push(upgradeResourceAndCost);
+			if (upgradeResourceAndCost?.length) foundItem.upgrade.resources.push(upgradeResourceAndCost);
 			foundItem.hallLevels.push(hallLevel);
 			foundItem.maxLevel = Math.max(foundItem.maxLevel, character.VisualLevel || 1);
 			foundItem.minLevel = Math.min(foundItem.minLevel, character.VisualLevel || 1);

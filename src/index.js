@@ -6,15 +6,20 @@ const { resolve } = require('path');
 
 
 async function decompress() {
-	for await (const path of ['assets/csv', 'assets/localization', 'assets/logic']) {
-		console.log(`Decompressing files in ${path}`);
-		readdirSync(path).forEach((file) => {
-			const filepath = resolve(path, file);
-			const buffer = readFileSync(filepath);
-			writeFileSync(filepath, ScCompression.decompress(buffer));
-		});
-	}
+	try {
+		for await (const path of ['assets/csv', 'assets/localization', 'assets/logic']) {
+			console.log(`Decompressing files in ${path}`);
+			readdirSync(path).forEach((file) => {
+				console.log(file);
+				const filepath = resolve(path, file);
+				const buffer = readFileSync(filepath);
+				writeFileSync(filepath, ScCompression.decompress(buffer));
+			});
+		}
 
+	} catch (error) {
+		console.error(error);
+	}
 	console.log('Done!');
 }
 

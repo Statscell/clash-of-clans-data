@@ -5,7 +5,7 @@ shopt -s extglob # Enable extended globbing
 if [ "$#" -eq 1 ]; then
     fingerprint="$1"
 else
-    fingerprint="b8cb4e1c4ee7485bafc34123e4cb2b5b869b4f93"
+    fingerprint="852635df0b42b804507acafa776c3dc502c6f8b1"
 fi
 
 base_url="https://game-assets.clashofclans.com"

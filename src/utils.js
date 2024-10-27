@@ -32,6 +32,13 @@ function getResourceAndCost(costs, resourceIds) {
 	});
 }
 
+function getAllowedCharacters(allowedCharacters) {
+	return allowedCharacters.split(';').filter((name) => name).map((name) => {
+		const character = RAW_HEROES.find((char) => char.Name === name);
+		return getTextValue(character.TID);
+	});
+}
+
 function getID(TID, type) {
 	let list = null;
 	if (type === 'troop' || type === 'siege') list = RAW_CHARACTERS;
@@ -49,4 +56,4 @@ function getID(TID, type) {
 		.indexOf(TID);
 }
 
-module.exports = { getResourceName, getTextValue, getID, getResourceAndCost };
+module.exports = { getResourceName, getTextValue, getID, getResourceAndCost, getAllowedCharacters };
