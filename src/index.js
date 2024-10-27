@@ -6,6 +6,7 @@ const { resolve } = require('path');
 
 
 async function decompress() {
+	// const ScCompression = await import('sc-compression');
 	try {
 		for await (const path of ['assets/csv', 'assets/localization', 'assets/logic']) {
 			console.log(`Decompressing files in ${path}`);

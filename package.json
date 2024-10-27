@@ -19,5 +19,8 @@
 	"scripts": {
 		"start": "node src/index.js --decompress",
 		"clean": "rimraf raw/*.json"
+	},
+	"engines": {
+		"node": ">=18.x"
 	}
 }

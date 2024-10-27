@@ -142,5 +142,11 @@
     "seasonal": [
       "Royal Champion"
     ]
+  },
+  {
+    "name": "TID_GEAR_LAVALOON_PUPPET",
+    "seasonal": [
+      "Grand Warden"
+    ]
   }
 ]
