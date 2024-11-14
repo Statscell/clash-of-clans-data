@@ -52,8 +52,7 @@ function getID(TID, type) {
 	return list
 		.slice(1)
 		.filter(ch => ch.Name !== '')
-		.map(ch => ch.TID)
-		.indexOf(TID);
+		.findIndex((ch, idx, arr) => ch.TID === TID && (type === 'troop' ? ch.DisableProduction !== true : true));
 }
 
 module.exports = { getResourceName, getTextValue, getID, getResourceAndCost, getAllowedCharacters };
