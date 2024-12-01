@@ -1,16 +1,18 @@
 const { writeFileSync, existsSync, mkdirSync } = require('fs');
 const formatJson = require('json-format');
 
-const RAW_CHARACTERS = require('../../raw/characters.json');
-const RAW_SPELLS = require('../../raw/spells.json');
-const RAW_HEROES = require('../../raw/heroes.json');
-const RAW_PETS = require('../../raw/pets.json');
-const HERO_EQUIPMENTS = require('../../raw/character_items.json');
-const RAW_BUILDINGS = require('../../raw/buildings.json');
+const path = require('path');
+const RAW_CHARACTERS = require(path.resolve(__dirname, '../../raw/characters.json'));
+const RAW_SPELLS = require(path.resolve(__dirname, '../../raw/spells.json'));
+const RAW_HEROES = require(path.resolve(__dirname, '../../raw/heroes.json'));
+const RAW_PETS = require(path.resolve(__dirname, '../../raw/pets.json'));
+const HERO_EQUIPMENTS = require(path.resolve(__dirname, '../../raw/character_items.json'));
+const RAW_BUILDINGS = require(path.resolve(__dirname, '../../raw/buildings.json'));
+
+const { maxTH, maxBH } = require('../../config.json');
 
 const { getResourceName, getTextValue, getID, getResourceAndCost, getAllowedCharacters } = require('../utils');
 
-const { maxTH, maxBH } = require('../../config.json');
 const TYPES = {
 	TROOPS: 0,
 	SPELLS: 1,

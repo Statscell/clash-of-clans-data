@@ -1,8 +1,9 @@
 const { writeFileSync, existsSync, mkdirSync } = require('fs');
 const formatJson = require('json-format');
 
-const RAW_CHARACTERS = require('../../raw/characters.json');
-const RAW_SUPER_TROOPS = require('../../raw/super_licences.json');
+const path = require('path');
+const RAW_CHARACTERS = require(path.resolve(__dirname, '../../raw/characters.json'));
+const RAW_SUPER_TROOPS = require(path.resolve(__dirname, '../../raw/super_licences.json'));
 
 const { getResourceName, getTextValue, getID } = require('../utils');
 

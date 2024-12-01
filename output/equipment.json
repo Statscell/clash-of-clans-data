@@ -102,12 +102,6 @@
     ]
   },
   {
-    "name": "TID_GEAR_TITLE_HEROIC_TORCH",
-    "seasonal": [
-      "Grand Warden"
-    ]
-  },
-  {
     "name": "TID_GEAR_HEALER_JAR",
     "seasonal": [
       "Archer Queen"
@@ -123,6 +117,12 @@
     "name": "TID_GEAR_ANGRY_TOME",
     "seasonal": [
       "Grand Warden"
+    ]
+  },
+  {
+    "name": "TID_GEAR_TITLE_SNAKE_ARMOR",
+    "seasonal": [
+      "Barbarian King"
     ]
   },
   {
@@ -147,6 +147,18 @@
     "name": "TID_GEAR_LAVALOON_PUPPET",
     "seasonal": [
       "Grand Warden"
+    ]
+  },
+  {
+    "name": "TID_GEAR_TITLE_MINION_BODYGUARDS",
+    "seasonal": [
+      "Minion Prince"
+    ]
+  },
+  {
+    "name": "TID_GEAR_TITLE_DARK_ORB",
+    "seasonal": [
+      "Minion Prince"
     ]
   }
 ]

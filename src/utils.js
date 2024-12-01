@@ -1,11 +1,12 @@
-const RAW_TEXTS = require('../raw/texts.json');
-const RAW_TEXTS_PATCH = require('../raw/texts_patch.json');
-const RAW_RESOURCES = require('../raw/resources.json');
-const RAW_CHARACTERS = require('../raw/characters.json');
-const RAW_SPELLS = require('../raw/spells.json');
-const RAW_PETS = require('../raw/pets.json');
-const RAW_HEROES = require('../raw/heroes.json');
-const HERO_EQUIPMENTS = require('../raw/character_items.json');
+const path = require('path');
+const RAW_TEXTS = require(path.resolve(__dirname, '../raw/texts.json'));
+const RAW_TEXTS_PATCH = require(path.resolve(__dirname, '../raw/texts_patch.json'));
+const RAW_RESOURCES = require(path.resolve(__dirname, '../raw/resources.json'));
+const RAW_CHARACTERS = require(path.resolve(__dirname, '../raw/characters.json'));
+const RAW_SPELLS = require(path.resolve(__dirname, '../raw/spells.json'));
+const RAW_PETS = require(path.resolve(__dirname, '../raw/pets.json'));
+const RAW_HEROES = require(path.resolve(__dirname, '../raw/heroes.json'));
+const HERO_EQUIPMENTS = require(path.resolve(__dirname, '../raw/character_items.json'));
 
 function getTextValue(id) {
 	const found = RAW_TEXTS.find(field => field.TID === id) ?? RAW_TEXTS_PATCH.find(field => field.TID === id);
@@ -52,7 +53,9 @@ function getID(TID, type) {
 	return list
 		.slice(1)
 		.filter(ch => ch.Name !== '')
-		.findIndex((ch, idx, arr) => ch.TID === TID && (type === 'troop' ? ch.DisableProduction !== true : true));
+		.findIndex((ch) => ch.TID === TID && (type === 'troop'
+			? ch.DisableProduction !== true
+			: true));
 }
 
 module.exports = { getResourceName, getTextValue, getID, getResourceAndCost, getAllowedCharacters };
