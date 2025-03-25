@@ -132,6 +132,12 @@
     ]
   },
   {
+    "name": "TID_GEAR_DARK_CROWN",
+    "seasonal": [
+      "Minion Prince"
+    ]
+  },
+  {
     "name": "TID_GEAR_TITLE_CLONING_CLOAK",
     "seasonal": [
       "Archer Queen"
@@ -165,6 +171,18 @@
     "name": "TID_GEAR_TITLE_STONE_AMULET",
     "seasonal": [
       "Minion Prince"
+    ]
+  },
+  {
+    "name": "TID_GEAR_TITLE_TURBO_START",
+    "seasonal": [
+      "Minion Prince"
+    ]
+  },
+  {
+    "name": "TID_GEAR_ACTION_FIGURE",
+    "seasonal": [
+      "Archer Queen"
     ]
   }
 ]

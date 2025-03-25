@@ -190,5 +190,17 @@
     "resource": "Dark Elixir",
     "resourceCost": 25000,
     "housingSpace": 12
+  },
+  {
+    "name": "Super Yeti",
+    "id": 147,
+    "original": "Yeti",
+    "minOriginalLevel": 3,
+    "village": "home",
+    "duration": 259200,
+    "cooldown": 259200,
+    "resource": "Dark Elixir",
+    "resourceCost": 25000,
+    "housingSpace": 35
   }
 ]
