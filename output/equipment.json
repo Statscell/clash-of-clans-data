@@ -102,6 +102,12 @@
     ]
   },
   {
+    "name": "TID_GEAR_TITLE_HEROIC_TORCH",
+    "seasonal": [
+      "Grand Warden"
+    ]
+  },
+  {
     "name": "TID_GEAR_HEALER_JAR",
     "seasonal": [
       "Archer Queen"

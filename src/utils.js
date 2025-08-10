@@ -53,7 +53,7 @@ function getID(TID, type) {
 	return list
 		.slice(1)
 		.filter(ch => ch.Name !== '')
-		.findIndex((ch) => ch.TID === TID && (type === 'troop'
+		.findIndex((ch) => ch.TID === TID && (['troop', 'siege'].includes(type)
 			? ch.DisableProduction !== true
 			: true));
 }

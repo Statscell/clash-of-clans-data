@@ -1921,7 +1921,7 @@
   },
   {
     "tid": "TID_CHARACTER_SIEGE_MACHINE_TROOP_CATAPULT",
-    "id": 115,
+    "id": 135,
     "name": "Troop Launcher",
     "housingSpace": 1,
     "village": "home",
