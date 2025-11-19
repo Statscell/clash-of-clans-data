@@ -190,5 +190,23 @@
     "seasonal": [
       "Archer Queen"
     ]
+  },
+  {
+    "name": "TID_GEAR_METEOR_WAND",
+    "seasonal": [
+      "Minion Prince"
+    ]
+  },
+  {
+    "name": "TID_GEAR_FROST_CHARM",
+    "seasonal": [
+      "Royal Champion"
+    ]
+  },
+  {
+    "name": "TID_GEAR_TITLE_STICK_HORSE",
+    "seasonal": [
+      "Barbarian King"
+    ]
   }
 ]
