@@ -27,7 +27,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [1,1,2,2,3,3,4,5,6,7,8,9,9,10,11,12,12]
+    "levels": [1,1,2,2,3,3,4,5,6,7,8,9,9,10,11,12,12,12]
   },
   {
     "tid": "TID_ARCHER",
@@ -57,7 +57,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,1,2,2,3,3,4,5,6,7,8,9,9,10,11,12,13]
+    "levels": [0,1,2,2,3,3,4,5,6,7,8,9,9,10,11,12,13,13]
   },
   {
     "tid": "TID_GOBLIN",
@@ -87,7 +87,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,1,2,2,3,3,4,5,6,7,7,8,8,8,9,9,9]
+    "levels": [0,1,2,2,3,3,4,5,6,7,7,8,8,8,9,9,9,9]
   },
   {
     "tid": "TID_GIANT",
@@ -177,7 +177,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,2,2,3,4,5,6,6,7,8,9,10,10,11,12]
+    "levels": [0,0,0,2,2,3,4,5,6,6,7,8,9,10,10,11,12,12]
   },
   {
     "tid": "TID_WIZARD",
@@ -267,7 +267,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,2,3,4,5,6,7,8,9,10,11,12]
+    "levels": [0,0,0,0,0,0,2,3,4,5,6,7,8,9,10,11,12,12]
   },
   {
     "tid": "TID_PEKKA",
@@ -357,7 +357,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,2,4,5,6,7,9,10,11,12,13,14]
+    "levels": [0,0,0,0,0,0,2,4,5,6,7,9,10,11,12,13,14,14]
   },
   {
     "tid": "TID_WARRIORGIRL",
@@ -387,7 +387,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,2,4,5,6,7,8,9,10,11,11]
+    "levels": [0,0,0,0,0,0,0,2,4,5,6,7,8,9,10,11,11,11]
   },
   {
     "tid": "TID_GOLEM",
@@ -417,7 +417,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,2,4,5,7,9,10,11,12,13,14]
+    "levels": [0,0,0,0,0,0,0,2,4,5,7,9,10,11,12,13,14,14]
   },
   {
     "tid": "TID_WARLOCK",
@@ -447,7 +447,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,2,3,4,5,5,5,6,7,7]
+    "levels": [0,0,0,0,0,0,0,0,2,3,4,5,5,5,6,7,7,7]
   },
   {
     "tid": "TID_AD_SEEKER",
@@ -477,7 +477,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,2,3,4,5,6,6,6,7,7]
+    "levels": [0,0,0,0,0,0,0,0,2,3,4,5,6,6,6,7,7,7]
   },
   {
     "tid": "TID_BOWLER",
@@ -537,7 +537,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,2,4,5,6,7,8,9,10,11]
+    "levels": [0,0,0,0,0,0,0,0,2,4,5,6,7,8,9,10,11,11]
   },
   {
     "tid": "TID_MINER",
@@ -597,7 +597,7 @@
     "allowedCharacters": [],
     "minLevel": 5,
     "seasonal": false,
-    "levels": [5,5,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12]
+    "levels": [5,5,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12]
   },
   {
     "tid": "TID_CHARACTER_MAGIC_ARCHER",
@@ -627,7 +627,7 @@
     "allowedCharacters": [],
     "minLevel": 5,
     "seasonal": false,
-    "levels": [0,5,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13]
+    "levels": [0,5,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13]
   },
   {
     "tid": "TID_CHARACTER_ELITE_WALLBREAKER",
@@ -657,7 +657,7 @@
     "allowedCharacters": [],
     "minLevel": 5,
     "seasonal": false,
-    "levels": [0,0,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14]
+    "levels": [0,0,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14]
   },
   {
     "tid": "TID_CHARACTER_ELITE_GIANT",
@@ -687,7 +687,7 @@
     "allowedCharacters": [],
     "minLevel": 5,
     "seasonal": false,
-    "levels": [0,5,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14]
+    "levels": [0,5,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14]
   },
   {
     "tid": "TID_RAGED_BARBARIAN",
@@ -1047,7 +1047,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,3,4,4,5,5,5]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,3,4,4,5,5,5,5]
   },
   {
     "tid": "TID_CHARACTER_YETI",
@@ -1077,7 +1077,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,2,3,4,5,6,7]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,2,3,4,5,6,7,7]
   },
   {
     "tid": "TID_CHARACTER_ELITE_GOBLIN",
@@ -1107,7 +1107,7 @@
     "allowedCharacters": [],
     "minLevel": 5,
     "seasonal": false,
-    "levels": [0,5,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9]
+    "levels": [0,5,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9]
   },
   {
     "tid": "TID_SUPER_MINER",
@@ -1137,7 +1137,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12]
+    "levels": [0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12]
   },
   {
     "tid": "TID_CHARACTER_HASTY_BALLOON",
@@ -1167,7 +1167,7 @@
     "allowedCharacters": [],
     "minLevel": 5,
     "seasonal": false,
-    "levels": [0,0,0,12,12,12,12,12,12,12,12,12,12,12,12,12,12]
+    "levels": [0,0,0,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12]
   },
   {
     "tid": "TID_ICEGOLEM",
@@ -1197,7 +1197,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,3,5,5,6,7,8,9]
+    "levels": [0,0,0,0,0,0,0,0,0,0,3,5,5,6,7,8,9,9]
   },
   {
     "tid": "TID_LIGHTNINGDRAGON",
@@ -1257,7 +1257,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,3,4,4,5,5,5]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,3,4,4,5,5,5,5]
   },
   {
     "tid": "TID_CHARACTER_INFERNO_DRAGON",
@@ -1287,7 +1287,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,11,11,11,11,11,11,11,11,11]
+    "levels": [0,0,0,0,0,0,0,0,11,11,11,11,11,11,11,11,11,11]
   },
   {
     "tid": "TID_CHARACTER_SUPER_VALKYRIE",
@@ -1317,7 +1317,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,11,11,11,11,11,11,11,11,11,11]
+    "levels": [0,0,0,0,0,0,0,11,11,11,11,11,11,11,11,11,11,11]
   },
   {
     "tid": "TID_CHARACTER_MECHA_DRAGON",
@@ -1377,7 +1377,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,7,7,7,7,7,7,7,7,7]
+    "levels": [0,0,0,0,0,0,0,0,7,7,7,7,7,7,7,7,7,7]
   },
   {
     "tid": "TID_HOG_GLIDER",
@@ -1437,7 +1437,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,5,5]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,5,5,5]
   },
   {
     "tid": "TID_ICE_HOUND",
@@ -1467,7 +1467,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,7,7,7,7,7,7,7,7,7]
+    "levels": [0,0,0,0,0,0,0,0,7,7,7,7,7,7,7,7,7,7]
   },
   {
     "tid": "TID_SUPER_BOWLER",
@@ -1497,7 +1497,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,10,10,10,10,10,10,10,10]
+    "levels": [0,0,0,0,0,0,0,0,0,10,10,10,10,10,10,10,10,10]
   },
   {
     "tid": "TID_SUPER_DRAGON",
@@ -1527,7 +1527,7 @@
     "allowedCharacters": [],
     "minLevel": 3,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,12]
+    "levels": [0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,12,12]
   },
   {
     "tid": "TID_CHARACTER_HEADHUNTER",
@@ -1557,7 +1557,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,2,3,3,3,3,3]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,2,3,3,3,3,3,3]
   },
   {
     "tid": "TID_SUPER_WIZARD",
@@ -1587,7 +1587,7 @@
     "allowedCharacters": [],
     "minLevel": 5,
     "seasonal": false,
-    "levels": [0,0,0,0,14,14,14,14,14,14,14,14,14,14,14,14,14]
+    "levels": [0,0,0,0,14,14,14,14,14,14,14,14,14,14,14,14,14,14]
   },
   {
     "tid": "TID_SUPER_MINION",
@@ -1617,7 +1617,7 @@
     "allowedCharacters": [],
     "minLevel": 4,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,14,14,14,14,14,14,14,14,14,14,14]
+    "levels": [0,0,0,0,0,0,14,14,14,14,14,14,14,14,14,14,14,14]
   },
   {
     "tid": "TID_SIEGE_MACHINE_LOG_LAUNCHER",
@@ -1647,7 +1647,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,5,5]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,5,5,5]
   },
   {
     "tid": "TID_CHARACTER_SIEGE_MACHINE_CATAPULT",
@@ -1677,7 +1677,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,5,5]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,5,5,5]
   },
   {
     "tid": "TID_CHARACTER_SIEGE_BATTLE_DRILL",
@@ -1707,7 +1707,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,5]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,5,5]
   },
   {
     "tid": "TID_CHARACTER_ELECTRO_TITAN",
@@ -1737,7 +1737,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,4]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,4,4]
   },
   {
     "tid": "TID_CHARACTER_APPRENTICE_WARDEN",
@@ -1767,7 +1767,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,4,4]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,4,4,4]
   },
   {
     "tid": "TID_CHARACTER_SUPER_HOG_RIDER",
@@ -1797,7 +1797,7 @@
     "allowedCharacters": [],
     "minLevel": 4,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,14,14,14,14,14,14,14,14,14,14,14]
+    "levels": [0,0,0,0,0,0,14,14,14,14,14,14,14,14,14,14,14,14]
   },
   {
     "tid": "TID_ELECTROFIRE_WIZARD",
@@ -1857,7 +1857,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,3]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,3,3]
   },
   {
     "tid": "TID_CHARACTER_SHAPESHIFTER_DRUID",
@@ -1887,7 +1887,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,5]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,5,5]
   },
   {
     "tid": "TID_CHARACTER_THROWER",
@@ -1947,7 +1947,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,4]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,4,4]
   },
   {
     "tid": "TID_CHARACTER_SUPER_YETI",
@@ -1977,7 +1977,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,7,7,7,7,7,7]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,7,7,7,7,7,7,7]
   },
   {
     "tid": "TID_CHARACTER_FURNACE",
@@ -2007,7 +2007,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,4]
   },
   {
     "tid": "TID_METEOR_GOLEM",
@@ -2127,7 +2127,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,4,5,5,5,5,6,6,6,6,6,6]
+    "levels": [0,0,0,0,0,0,4,5,5,5,5,6,6,6,6,6,6,6]
   },
   {
     "tid": "TID_JUMP_SPELL",
@@ -2157,7 +2157,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,2,3,3,3,4,4,5,5,5]
+    "levels": [0,0,0,0,0,0,0,0,2,3,3,3,4,4,5,5,5,5]
   },
   {
     "tid": "TID_FREEZE_SPELL",
@@ -2187,7 +2187,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,2,5,6,7,7,7,7,7,7]
+    "levels": [0,0,0,0,0,0,0,0,2,5,6,7,7,7,7,7,7,7]
   },
   {
     "tid": "TID_POISON_CLOUD",
@@ -2247,7 +2247,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,2,3,4,5,5,5,5,5,5,5]
+    "levels": [0,0,0,0,0,0,0,2,3,4,5,5,5,5,5,5,5,5]
   },
   {
     "tid": "TID_SPEEDUP",
@@ -2307,7 +2307,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,3,5,5,6,7,8,8,8]
+    "levels": [0,0,0,0,0,0,0,0,0,3,5,5,6,7,8,8,8,8]
   },
   {
     "tid": "TID_CREATE_SKELETONS_SPELL",
@@ -2337,7 +2337,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,1,3,4,6,7,7,8,8,8]
+    "levels": [0,0,0,0,0,0,0,0,1,3,4,6,7,7,8,8,8,8]
   },
   {
     "tid": "TID_SPELL_BATS",
@@ -2397,7 +2397,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,2,3,4,4,4,4,4]
+    "levels": [0,0,0,0,0,0,0,0,0,0,2,3,4,4,4,4,4,4]
   },
   {
     "tid": "TID_SPELL_RECALL",
@@ -2427,7 +2427,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,5,6]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,5,6,6]
   },
   {
     "tid": "TID_SPELL_OVERGROWTH",
@@ -2457,7 +2457,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,2,2,3,3,4,4]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,2,2,3,3,4,4,4]
   },
   {
     "tid": "TID_SPELL_REVIVE",
@@ -2487,7 +2487,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,4]
   },
   {
     "tid": "TID_ICE_BLOCK_SPELL",
@@ -2517,7 +2517,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,5]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,5,5]
   },
   {
     "tid": "TID_TOTEM_SPELL",
@@ -2795,7 +2795,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10,15,15,15]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10,15,15,15,15]
   },
   {
     "tid": "TID_PET_WALLBUSTER",
@@ -2826,7 +2826,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10,15,15,15]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10,15,15,15,15]
   },
   {
     "tid": "TID_PET_RANGEDATTACKER",
@@ -2857,7 +2857,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,15,15]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,15,15,15]
   },
   {
     "tid": "TID_PET_HEALER",
@@ -2888,7 +2888,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10,15]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10,15,15]
   },
   {
     "tid": "TID_PET_PHOENIX",
@@ -2919,7 +2919,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10,10]
   },
   {
     "tid": "TID_PET_POISON_LIZARD",
@@ -2950,7 +2950,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,15]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,15,15]
   },
   {
     "tid": "TID_PET_DIGGY",
@@ -2981,7 +2981,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10,10]
   },
   {
     "tid": "TID_PET_FROSTY",
@@ -3012,7 +3012,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,15]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,15,15]
   },
   {
     "tid": "TID_PET_SPIRIT_FOX",
@@ -3043,7 +3043,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10]
   },
   {
     "tid": "TID_PET_ANGRY_JELLY",
@@ -3074,7 +3074,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10]
   },
   {
     "tid": "TID_PET_SNEEZY",
@@ -3105,7 +3105,7 @@
     "allowedCharacters": [],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10]
   },
   {
     "tid": "TID_GEAR_TITLE_BARBARIAN_CROWN",
@@ -3264,7 +3264,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_TITLE_IRON_FIST",
@@ -3423,7 +3423,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_TITLE_ARCHER_CROWN",
@@ -3582,7 +3582,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_TITLE_ROYAL_CLOAK",
@@ -3741,7 +3741,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_TITLE_ETERNAL_TOME",
@@ -3900,7 +3900,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_TITLE_LIFE_GEM",
@@ -4059,7 +4059,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_TITLE_SEEKING_SHIELD",
@@ -4218,7 +4218,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_PROTECTIVE_CLOAK",
@@ -4377,7 +4377,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_EARTHQUAKE_BOOTS",
@@ -4536,7 +4536,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_HOG_TOTEM",
@@ -4695,7 +4695,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_GIANT_GAUNTLET",
@@ -4948,7 +4948,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27]
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27,27]
   },
   {
     "tid": "TID_GEAR_VAMPSTACHE",
@@ -5107,7 +5107,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,12,12,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,0,0,12,12,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_TITLE_HASTE_VIAL",
@@ -5266,7 +5266,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,18,18]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_ROCKET_SPEAR",
@@ -5519,7 +5519,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27]
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27,27]
   },
   {
     "tid": "TID_GEAR_TITLE_FOOTBALL",
@@ -5772,7 +5772,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27]
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27,27]
   },
   {
     "tid": "TID_GEAR_FROZEN_ARROW",
@@ -6025,7 +6025,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27]
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27,27]
   },
   {
     "tid": "TID_GEAR_PIERCING_ARROW",
@@ -6184,7 +6184,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,9,12,12,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,0,9,12,12,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_TITLE_HEROIC_TORCH",
@@ -6437,7 +6437,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27]
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27,27]
   },
   {
     "tid": "TID_GEAR_HEALER_JAR",
@@ -6596,7 +6596,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_FIRE_IN_A_CAN",
@@ -6849,7 +6849,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27]
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27,27]
   },
   {
     "tid": "TID_GEAR_ANGRY_TOME",
@@ -7008,7 +7008,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,12,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,0,0,0,12,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_TITLE_SNAKE_ARMOR",
@@ -7261,7 +7261,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27]
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27,27]
   },
   {
     "tid": "TID_GEAR_HEALING_TOME",
@@ -7420,7 +7420,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_DARK_CROWN",
@@ -7673,7 +7673,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27]
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27,27]
   },
   {
     "tid": "TID_GEAR_TITLE_CLONING_CLOAK",
@@ -7926,7 +7926,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27]
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27,27]
   },
   {
     "tid": "TID_GEAR_ELECTRO_SHIELD",
@@ -8179,7 +8179,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27]
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27,27]
   },
   {
     "tid": "TID_GEAR_LAVALOON_PUPPET",
@@ -8432,7 +8432,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27]
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27,27]
   },
   {
     "tid": "TID_GEAR_TITLE_MINION_BODYGUARDS",
@@ -8591,7 +8591,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_TITLE_DARK_ORB",
@@ -8750,7 +8750,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,9,9,12,12,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_TITLE_STONE_AMULET",
@@ -8909,7 +8909,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,12,12,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,0,0,12,12,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_TITLE_TURBO_START",
@@ -9068,7 +9068,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,0,0,0,0,15,15,18,18,18,18]
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,15,15,18,18,18,18,18]
   },
   {
     "tid": "TID_GEAR_ACTION_FIGURE",
@@ -9321,7 +9321,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27]
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27,27]
   },
   {
     "tid": "TID_GEAR_METEOR_WAND",
@@ -9574,7 +9574,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27]
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27,27]
   },
   {
     "tid": "TID_GEAR_FROST_CHARM",
@@ -9827,7 +9827,7 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27]
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27,27]
   },
   {
     "tid": "TID_GEAR_TITLE_STICK_HORSE",
@@ -10080,6 +10080,6 @@
     ],
     "minLevel": 1,
     "seasonal": false,
-    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27]
+    "levels": [0,0,0,0,0,0,0,12,12,15,15,18,18,21,24,27,27,27]
   }
 ]
