@@ -208,5 +208,29 @@
     "seasonal": [
       "Barbarian King"
     ]
+  },
+  {
+    "name": "TID_GEAR_TITLE_FIRE_HEART",
+    "seasonal": [
+      "Dragon Duke"
+    ]
+  },
+  {
+    "name": "TID_GEAR_TITLE_DEADLY_DASH",
+    "seasonal": [
+      "Dragon Duke"
+    ]
+  },
+  {
+    "name": "TID_GEAR_TITLE_STUN_BLAST",
+    "seasonal": [
+      "Dragon Duke"
+    ]
+  },
+  {
+    "name": "TID_GEAR_TITLE_FLAME_BREATH",
+    "seasonal": [
+      "Dragon Duke"
+    ]
   }
 ]

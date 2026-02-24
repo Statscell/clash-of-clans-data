@@ -1,9 +1,9 @@
 {
-	"editor.tabSize": 4,
-	"editor.useTabStops": true,
-	"editor.insertSpaces": false,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": { "source.organizeImports": "explicit" },
+	"editor.tabSize": 2,
 	"editor.detectIndentation": false,
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": "explicit"
-	},
+	"editor.insertSpaces": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"jest.runMode": "on-demand"
 }

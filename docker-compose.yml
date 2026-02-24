@@ -1,0 +1,9 @@
+services:
+  dumpsc-json:
+    build: .
+    container_name: dumpsc-json
+    volumes:
+      - ./src:/src
+      - ./raw:/raw
+      - ./assets:/assets
+      - ./output:/output

@@ -1,7 +1,7 @@
 name: Build and Publish
 
 env:
-  FINGERPRINT: 10cf5ae5452bb4e87b12e6af7f2d8582e85cb030
+  FINGERPRINT: 9df5839aaed5b6031a746de51c270e78a2a92dd6
   GAME_ASSET_URL: https://game-assets.clashofclans.com
   GCP_BUCKET_NAME: game-assets-clashofclans.appspot.com
 

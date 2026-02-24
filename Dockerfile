@@ -10,4 +10,4 @@ RUN npm i
 
 RUN apk del .build-deps
 
-ENTRYPOINT ["node", "src/index.js", "--decompress"]
+ENTRYPOINT ["npm", "run", "start"]
