@@ -5,7 +5,7 @@ const path = require('path');
 const RAW_CHARACTERS = require(path.resolve(__dirname, '../../raw/characters.json'));
 const RAW_SUPER_TROOPS = require(path.resolve(__dirname, '../../raw/super_licences.json'));
 
-const { getResourceName, getTextValue, getID } = require('../utils');
+const { getResourceName, getTextValue, getID, globalIdMultiplier } = require('../utils');
 
 function parseSuperTroops() {
   const output = [];
@@ -18,7 +18,7 @@ function parseSuperTroops() {
 
     output.push({
       name: getTextValue(superTID),
-      id: getID(superTID, 'troop'),
+      id: superTroop.GlobalID ? superTroop.GlobalID - globalIdMultiplier['troop'] : getID(superTID, 'troop'),
       original: getTextValue(troopOriginal.TID),
       minOriginalLevel: troop.MinOriginalLevel + 1,
       village: troop.VillageType === 1 ? 'builderBase' : 'home',

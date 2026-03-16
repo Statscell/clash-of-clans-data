@@ -16,7 +16,8 @@ const {
   getTextValue,
   getID,
   getResourceAndCost,
-  getAllowedCharacters
+  getAllowedCharacters,
+	globalIdMultiplier
 } = require('../utils');
 
 const TYPES = {
@@ -234,7 +235,7 @@ function _parseStats(inputItems, type) {
       outputList.push({
         _name: character.Name,
         tid: character.TID,
-        id: getID(character.TID, subCategory),
+        id: character.GlobalID ? character.GlobalID - globalIdMultiplier[subCategory] : getID(character.TID, subCategory),
         name: getTextValue(character.TID),
         housingSpace: character.HousingSpace || 0,
         village,

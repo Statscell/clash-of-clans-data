@@ -40,6 +40,15 @@ function getAllowedCharacters(allowedCharacters) {
 	});
 }
 
+const globalIdMultiplier = {
+	troop: 4000000,
+	siege: 4000000,
+	spell: 26000000,
+	pet: 0,
+	hero: 0,
+	equipment: 0
+};
+
 function getID(TID, type) {
 	let list = null;
 	if (type === 'troop' || type === 'siege') list = RAW_CHARACTERS;
@@ -58,4 +67,4 @@ function getID(TID, type) {
 			: true));
 }
 
-module.exports = { getResourceName, getTextValue, getID, getResourceAndCost, getAllowedCharacters };
+module.exports = { getResourceName, getTextValue, getID, getResourceAndCost, getAllowedCharacters, globalIdMultiplier };

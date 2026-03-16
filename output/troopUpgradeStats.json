@@ -59,7 +59,7 @@
   },
   {
     "tid": "TID_GIANT",
-    "id": 2,
+    "id": 3,
     "name": "Giant",
     "housingSpace": 5,
     "village": "home",
@@ -88,7 +88,7 @@
   },
   {
     "tid": "TID_GOBLIN",
-    "id": 3,
+    "id": 2,
     "name": "Goblin",
     "housingSpace": 1,
     "village": "home",
@@ -291,7 +291,7 @@
   },
   {
     "tid": "TID_BABY_DRAGON",
-    "id": 10,
+    "id": 23,
     "name": "Baby Dragon",
     "housingSpace": 10,
     "village": "home",
@@ -320,7 +320,7 @@
   },
   {
     "tid": "TID_MINER",
-    "id": 11,
+    "id": 24,
     "name": "Miner",
     "housingSpace": 6,
     "village": "home",
@@ -349,7 +349,7 @@
   },
   {
     "tid": "TID_LIGHTNINGDRAGON",
-    "id": 12,
+    "id": 59,
     "name": "Electro Dragon",
     "housingSpace": 30,
     "village": "home",
@@ -378,7 +378,7 @@
   },
   {
     "tid": "TID_CHARACTER_YETI",
-    "id": 13,
+    "id": 53,
     "name": "Yeti",
     "housingSpace": 18,
     "village": "home",
@@ -407,7 +407,7 @@
   },
   {
     "tid": "TID_CHARACTER_MECHA_DRAGON",
-    "id": 15,
+    "id": 65,
     "name": "Dragon Rider",
     "housingSpace": 25,
     "village": "home",
@@ -436,7 +436,7 @@
   },
   {
     "tid": "TID_CHARACTER_ELECTRO_TITAN",
-    "id": 16,
+    "id": 95,
     "name": "Electro Titan",
     "housingSpace": 32,
     "village": "home",
@@ -465,7 +465,7 @@
   },
   {
     "tid": "TID_CHARACTER_TREANT",
-    "id": 17,
+    "id": 110,
     "name": "Root Rider",
     "housingSpace": 20,
     "village": "home",
@@ -494,7 +494,7 @@
   },
   {
     "tid": "TID_CHARACTER_THROWER",
-    "id": 18,
+    "id": 132,
     "name": "Thrower",
     "housingSpace": 16,
     "village": "home",
@@ -523,7 +523,7 @@
   },
   {
     "tid": "TID_METEOR_GOLEM",
-    "id": 19,
+    "id": 177,
     "name": "Meteor Golem",
     "housingSpace": 40,
     "village": "home",
@@ -552,7 +552,7 @@
   },
   {
     "tid": "TID_GARGOYLE",
-    "id": 23,
+    "id": 10,
     "name": "Minion",
     "housingSpace": 2,
     "village": "home",
@@ -581,7 +581,7 @@
   },
   {
     "tid": "TID_BOARRIDER",
-    "id": 24,
+    "id": 11,
     "name": "Hog Rider",
     "housingSpace": 5,
     "village": "home",
@@ -610,7 +610,7 @@
   },
   {
     "tid": "TID_WARRIORGIRL",
-    "id": 25,
+    "id": 12,
     "name": "Valkyrie",
     "housingSpace": 8,
     "village": "home",
@@ -639,7 +639,7 @@
   },
   {
     "tid": "TID_GOLEM",
-    "id": 26,
+    "id": 13,
     "name": "Golem",
     "housingSpace": 30,
     "village": "home",
@@ -668,7 +668,7 @@
   },
   {
     "tid": "TID_WARLOCK",
-    "id": 28,
+    "id": 15,
     "name": "Witch",
     "housingSpace": 12,
     "village": "home",
@@ -697,7 +697,7 @@
   },
   {
     "tid": "TID_AD_SEEKER",
-    "id": 30,
+    "id": 17,
     "name": "Lava Hound",
     "housingSpace": 30,
     "village": "home",
@@ -726,7 +726,7 @@
   },
   {
     "tid": "TID_BOWLER",
-    "id": 33,
+    "id": 22,
     "name": "Bowler",
     "housingSpace": 6,
     "village": "home",
@@ -755,7 +755,7 @@
   },
   {
     "tid": "TID_ICEGOLEM",
-    "id": 34,
+    "id": 58,
     "name": "Ice Golem",
     "housingSpace": 15,
     "village": "home",
@@ -784,7 +784,7 @@
   },
   {
     "tid": "TID_CHARACTER_HEADHUNTER",
-    "id": 36,
+    "id": 82,
     "name": "Headhunter",
     "housingSpace": 6,
     "village": "home",
@@ -813,7 +813,7 @@
   },
   {
     "tid": "TID_CHARACTER_APPRENTICE_WARDEN",
-    "id": 37,
+    "id": 97,
     "name": "Apprentice Warden",
     "housingSpace": 20,
     "village": "home",
@@ -842,7 +842,7 @@
   },
   {
     "tid": "TID_CHARACTER_SHAPESHIFTER_DRUID",
-    "id": 38,
+    "id": 123,
     "name": "Druid",
     "housingSpace": 16,
     "village": "home",
@@ -871,7 +871,7 @@
   },
   {
     "tid": "TID_CHARACTER_FURNACE",
-    "id": 40,
+    "id": 150,
     "name": "Furnace",
     "housingSpace": 18,
     "village": "home",
@@ -900,7 +900,7 @@
   },
   {
     "tid": "TID_CHARACTER_ELITE_BARBARIAN",
-    "id": 44,
+    "id": 26,
     "name": "Super Barbarian",
     "housingSpace": 5,
     "village": "home",
@@ -929,7 +929,7 @@
   },
   {
     "tid": "TID_CHARACTER_MAGIC_ARCHER",
-    "id": 45,
+    "id": 27,
     "name": "Super Archer",
     "housingSpace": 12,
     "village": "home",
@@ -958,7 +958,7 @@
   },
   {
     "tid": "TID_CHARACTER_ELITE_GIANT",
-    "id": 46,
+    "id": 29,
     "name": "Super Giant",
     "housingSpace": 10,
     "village": "home",
@@ -987,7 +987,7 @@
   },
   {
     "tid": "TID_CHARACTER_ELITE_GOBLIN",
-    "id": 47,
+    "id": 55,
     "name": "Sneaky Goblin",
     "housingSpace": 3,
     "village": "home",
@@ -1016,7 +1016,7 @@
   },
   {
     "tid": "TID_CHARACTER_ELITE_WALLBREAKER",
-    "id": 48,
+    "id": 28,
     "name": "Super Wall Breaker",
     "housingSpace": 8,
     "village": "home",
@@ -1045,7 +1045,7 @@
   },
   {
     "tid": "TID_CHARACTER_HASTY_BALLOON",
-    "id": 49,
+    "id": 57,
     "name": "Rocket Balloon",
     "housingSpace": 8,
     "village": "home",
@@ -1074,7 +1074,7 @@
   },
   {
     "tid": "TID_SUPER_WIZARD",
-    "id": 50,
+    "id": 83,
     "name": "Super Wizard",
     "housingSpace": 10,
     "village": "home",
@@ -1103,7 +1103,7 @@
   },
   {
     "tid": "TID_SUPER_DRAGON",
-    "id": 51,
+    "id": 81,
     "name": "Super Dragon",
     "housingSpace": 40,
     "village": "home",
@@ -1132,7 +1132,7 @@
   },
   {
     "tid": "TID_CHARACTER_INFERNO_DRAGON",
-    "id": 52,
+    "id": 63,
     "name": "Inferno Dragon",
     "housingSpace": 15,
     "village": "home",
@@ -1161,7 +1161,7 @@
   },
   {
     "tid": "TID_SUPER_MINER",
-    "id": 53,
+    "id": 56,
     "name": "Super Miner",
     "housingSpace": 24,
     "village": "home",
@@ -1190,7 +1190,7 @@
   },
   {
     "tid": "TID_CHARACTER_SUPER_YETI",
-    "id": 54,
+    "id": 147,
     "name": "Super Yeti",
     "housingSpace": 35,
     "village": "home",
@@ -1219,7 +1219,7 @@
   },
   {
     "tid": "TID_SUPER_MINION",
-    "id": 56,
+    "id": 84,
     "name": "Super Minion",
     "housingSpace": 12,
     "village": "home",
@@ -1248,7 +1248,7 @@
   },
   {
     "tid": "TID_CHARACTER_SUPER_HOG_RIDER",
-    "id": 58,
+    "id": 98,
     "name": "Super Hog Rider",
     "housingSpace": 12,
     "village": "home",
@@ -1277,7 +1277,7 @@
   },
   {
     "tid": "TID_CHARACTER_SUPER_VALKYRIE",
-    "id": 61,
+    "id": 64,
     "name": "Super Valkyrie",
     "housingSpace": 20,
     "village": "home",
@@ -1306,7 +1306,7 @@
   },
   {
     "tid": "TID_CHARACTER_SUPER_WITCH",
-    "id": 62,
+    "id": 66,
     "name": "Super Witch",
     "housingSpace": 40,
     "village": "home",
@@ -1335,7 +1335,7 @@
   },
   {
     "tid": "TID_ICE_HOUND",
-    "id": 64,
+    "id": 76,
     "name": "Ice Hound",
     "housingSpace": 40,
     "village": "home",
@@ -1364,7 +1364,7 @@
   },
   {
     "tid": "TID_SUPER_BOWLER",
-    "id": 67,
+    "id": 80,
     "name": "Super Bowler",
     "housingSpace": 30,
     "village": "home",
@@ -1393,7 +1393,7 @@
   },
   {
     "tid": "TID_SIEGE_MACHINE_RAM",
-    "id": 68,
+    "id": 51,
     "name": "Wall Wrecker",
     "housingSpace": 1,
     "village": "home",
@@ -1422,7 +1422,7 @@
   },
   {
     "tid": "TID_SIEGE_MACHINE_FLYER",
-    "id": 69,
+    "id": 52,
     "name": "Battle Blimp",
     "housingSpace": 1,
     "village": "home",
@@ -1451,7 +1451,7 @@
   },
   {
     "tid": "TID_SIEGE_MACHINE_BALLOON",
-    "id": 70,
+    "id": 62,
     "name": "Stone Slammer",
     "housingSpace": 1,
     "village": "home",
@@ -1480,7 +1480,7 @@
   },
   {
     "tid": "TID_SIEGE_MACHINE_CARRIER",
-    "id": 71,
+    "id": 75,
     "name": "Siege Barracks",
     "housingSpace": 1,
     "village": "home",
@@ -1509,7 +1509,7 @@
   },
   {
     "tid": "TID_SIEGE_MACHINE_LOG_LAUNCHER",
-    "id": 72,
+    "id": 87,
     "name": "Log Launcher",
     "housingSpace": 1,
     "village": "home",
@@ -1538,7 +1538,7 @@
   },
   {
     "tid": "TID_CHARACTER_SIEGE_MACHINE_CATAPULT",
-    "id": 73,
+    "id": 91,
     "name": "Flame Flinger",
     "housingSpace": 1,
     "village": "home",
@@ -1567,7 +1567,7 @@
   },
   {
     "tid": "TID_CHARACTER_SIEGE_BATTLE_DRILL",
-    "id": 74,
+    "id": 92,
     "name": "Battle Drill",
     "housingSpace": 1,
     "village": "home",
@@ -1596,7 +1596,7 @@
   },
   {
     "tid": "TID_CHARACTER_SIEGE_MACHINE_TROOP_CATAPULT",
-    "id": 75,
+    "id": 135,
     "name": "Troop Launcher",
     "housingSpace": 1,
     "village": "home",
@@ -1625,7 +1625,7 @@
   },
   {
     "tid": "TID_RAGED_BARBARIAN",
-    "id": 163,
+    "id": 31,
     "name": "Raged Barbarian",
     "housingSpace": 4,
     "village": "builderBase",
@@ -1654,7 +1654,7 @@
   },
   {
     "tid": "TID_SNEAKY_ARCHER",
-    "id": 164,
+    "id": 32,
     "name": "Sneaky Archer",
     "housingSpace": 3,
     "village": "builderBase",
@@ -1683,7 +1683,7 @@
   },
   {
     "tid": "TID_IRONFIST_GIANT",
-    "id": 165,
+    "id": 34,
     "name": "Boxer Giant",
     "housingSpace": 18,
     "village": "builderBase",
@@ -1712,7 +1712,7 @@
   },
   {
     "tid": "TID_TOXIC_MINION",
-    "id": 166,
+    "id": 33,
     "name": "Beta Minion",
     "housingSpace": 3,
     "village": "builderBase",
@@ -1741,7 +1741,7 @@
   },
   {
     "tid": "TID_BOMBER",
-    "id": 167,
+    "id": 35,
     "name": "Bomber",
     "housingSpace": 12,
     "village": "builderBase",
@@ -1770,7 +1770,7 @@
   },
   {
     "tid": "TID_BABY_DRAGON2",
-    "id": 168,
+    "id": 41,
     "name": "Baby Dragon",
     "housingSpace": 12,
     "village": "builderBase",
@@ -1799,7 +1799,7 @@
   },
   {
     "tid": "TID_MOVING_CANNON",
-    "id": 169,
+    "id": 37,
     "name": "Cannon Cart",
     "housingSpace": 16,
     "village": "builderBase",
@@ -1828,7 +1828,7 @@
   },
   {
     "tid": "TID_DARK_WITCH",
-    "id": 170,
+    "id": 42,
     "name": "Night Witch",
     "housingSpace": 14,
     "village": "builderBase",
@@ -1857,7 +1857,7 @@
   },
   {
     "tid": "TID_BALLOON_CARRIER",
-    "id": 173,
+    "id": 38,
     "name": "Drop Ship",
     "housingSpace": 15,
     "village": "builderBase",
@@ -1886,7 +1886,7 @@
   },
   {
     "tid": "TID_SUPER_CHARGED_PEKKA",
-    "id": 175,
+    "id": 36,
     "name": "Power P.E.K.K.A",
     "housingSpace": 22,
     "village": "builderBase",
@@ -1915,7 +1915,7 @@
   },
   {
     "tid": "TID_HOG_GLIDER",
-    "id": 176,
+    "id": 70,
     "name": "Hog Glider",
     "housingSpace": 12,
     "village": "builderBase",
@@ -1944,7 +1944,7 @@
   },
   {
     "tid": "TID_ELECTROFIRE_WIZARD",
-    "id": 178,
+    "id": 106,
     "name": "Electrofire Wizard",
     "housingSpace": 14,
     "village": "builderBase",
@@ -2089,7 +2089,7 @@
   },
   {
     "tid": "TID_FREEZE_SPELL",
-    "id": 4,
+    "id": 5,
     "name": "Freeze Spell",
     "housingSpace": 1,
     "village": "home",
@@ -2118,7 +2118,7 @@
   },
   {
     "tid": "TID_DUPLICATE_SPELL",
-    "id": 5,
+    "id": 16,
     "name": "Clone Spell",
     "housingSpace": 3,
     "village": "home",
@@ -2147,7 +2147,7 @@
   },
   {
     "tid": "TID_INVISIBILITY_SPELL",
-    "id": 6,
+    "id": 35,
     "name": "Invisibility Spell",
     "housingSpace": 1,
     "village": "home",
@@ -2176,7 +2176,7 @@
   },
   {
     "tid": "TID_SPELL_RECALL",
-    "id": 7,
+    "id": 53,
     "name": "Recall Spell",
     "housingSpace": 2,
     "village": "home",
@@ -2205,7 +2205,7 @@
   },
   {
     "tid": "TID_SPELL_REVIVE",
-    "id": 8,
+    "id": 98,
     "name": "Revive Spell",
     "housingSpace": 2,
     "village": "home",
@@ -2234,7 +2234,7 @@
   },
   {
     "tid": "TID_TOTEM_SPELL",
-    "id": 9,
+    "id": 120,
     "name": "Totem Spell",
     "housingSpace": 1,
     "village": "home",
@@ -2263,7 +2263,7 @@
   },
   {
     "tid": "TID_POISON_CLOUD",
-    "id": 10,
+    "id": 9,
     "name": "Poison Spell",
     "housingSpace": 1,
     "village": "home",
@@ -2292,7 +2292,7 @@
   },
   {
     "tid": "TID_EARTHQUAKE",
-    "id": 11,
+    "id": 10,
     "name": "Earthquake Spell",
     "housingSpace": 1,
     "village": "home",
@@ -2321,7 +2321,7 @@
   },
   {
     "tid": "TID_SPEEDUP",
-    "id": 12,
+    "id": 11,
     "name": "Haste Spell",
     "housingSpace": 1,
     "village": "home",
@@ -2350,7 +2350,7 @@
   },
   {
     "tid": "TID_CREATE_SKELETONS_SPELL",
-    "id": 13,
+    "id": 17,
     "name": "Skeleton Spell",
     "housingSpace": 1,
     "village": "home",
@@ -2379,7 +2379,7 @@
   },
   {
     "tid": "TID_SPELL_BATS",
-    "id": 14,
+    "id": 28,
     "name": "Bat Spell",
     "housingSpace": 1,
     "village": "home",
@@ -2408,7 +2408,7 @@
   },
   {
     "tid": "TID_SPELL_OVERGROWTH",
-    "id": 15,
+    "id": 70,
     "name": "Overgrowth Spell",
     "housingSpace": 2,
     "village": "home",
@@ -2437,7 +2437,7 @@
   },
   {
     "tid": "TID_ICE_BLOCK_SPELL",
-    "id": 16,
+    "id": 109,
     "name": "Ice Block Spell",
     "housingSpace": 1,
     "village": "home",
