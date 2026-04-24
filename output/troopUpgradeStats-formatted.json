@@ -2725,7 +2725,7 @@
     },
     "allowedCharacters": [],
     "minLevel": 1,
-    "seasonal": true,
+    "seasonal": false,
     "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,15,20,25]
   },
   {
