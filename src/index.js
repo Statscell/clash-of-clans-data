@@ -24,8 +24,8 @@ async function decompress() {
 
 async function main() {
   // Initially converting the raw CSV files to Json format..
-  // if (process.argv.includes('--decompress')) await decompress();
-  // await convert();
+  if (process.argv.includes('--decompress')) await decompress();
+  await convert();
 
   // Parsing upgrade stats
   if (parser.upgradeStats) {
