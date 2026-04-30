@@ -96,6 +96,12 @@
     ]
   },
   {
+    "name": "TID_GEAR_MONOLITH_ARROW",
+    "seasonal": [
+      "Archer Queen"
+    ]
+  },
+  {
     "name": "TID_GEAR_PIERCING_ARROW",
     "seasonal": [
       "Archer Queen"
@@ -229,6 +235,12 @@
   },
   {
     "name": "TID_GEAR_TITLE_FLAME_BREATH",
+    "seasonal": [
+      "Dragon Duke"
+    ]
+  },
+  {
+    "name": "TID_GEAR_TITLE_ELECTRO_ATTACK",
     "seasonal": [
       "Dragon Duke"
     ]

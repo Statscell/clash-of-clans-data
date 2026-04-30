@@ -6,10 +6,14 @@ Data parser/formatter and usable data files for Supercell's game "Clash of Clans
 
 The project contains of few major folders
 
-docker run --name dumpsc-json -v $(pwd)/assets:/assets -v $(pwd)/output:/output dumpsc-json:latest
-
 - `output`: Parsed output file. If you are not willing to run the entire project you can just use it!
 - `src`: All the magic is happening here
+
+## Usage
+
+```bash
+docker compose up --build
+```
 
 ## ⚠️ Information ⚠️
 

@@ -17,7 +17,7 @@ const {
   getID,
   getResourceAndCost,
   getAllowedCharacters,
-	globalIdMultiplier
+  globalIdMultiplier
 } = require('../utils');
 
 const TYPES = {
@@ -144,6 +144,7 @@ function _parseStats(inputItems, type) {
               : character.ProductionBuilding;
         // Resetting hall level to 1 for new troop
         hallLevel = 1;
+
         const _build = RAW_BUILDINGS.find((build) => {
           if (type === TYPES.EQUIPMENT) {
             const buildingLevel = character[productionBuildingType];
@@ -157,13 +158,16 @@ function _parseStats(inputItems, type) {
             `${productionBuilding[productionBuildingField]}${character[productionBuildingType]}`
           );
         });
-        if (!_build)
+
+        if (!_build) {
           console.log({
             productionBuildingType,
             productionBuildingField,
-            f: `${productionBuilding[productionBuildingField]}${character[productionBuildingType]}`
+            f: `${productionBuilding[productionBuildingField]}${character[productionBuildingType]}`,
+						character
           });
-        if (!_build) console.log(character);
+        }
+
         // unlock Values
         unlockValues.time = formatUnlockTime(
           _build.BuildTimeD,
@@ -184,12 +188,12 @@ function _parseStats(inputItems, type) {
 
       // Getting required TH level for current character level
       if (!isNaN(character.LaboratoryLevel)) {
-        const labBuildName =
-          type === TYPES.PETS ? 'PetLab' : validCharacter.village === 'home' ? 'Lab' : 'Lab2';
-        const labThRequirement = RAW_BUILDINGS.find(
+        const labBuildName = type === TYPES.PETS ? 'PetLab' : village === 'home' ? 'Lab' : 'Lab2';
+        const building = RAW_BUILDINGS.find(
           (build) =>
             build.ExportName === `${labBuilding[labBuildName]}${character.LaboratoryLevel || 1}`
-        ).TownHallLevel;
+        );
+        const labThRequirement = building.TownHallLevel;
         hallLevel = unlockValues.hall
           ? Math.max(unlockValues.hall, hallLevel)
           : Math.max(hallLevel, labThRequirement);
@@ -235,7 +239,9 @@ function _parseStats(inputItems, type) {
       outputList.push({
         _name: character.Name,
         tid: character.TID,
-        id: character.GlobalID ? character.GlobalID - globalIdMultiplier[subCategory] : getID(character.TID, subCategory),
+        id: character.GlobalID
+          ? character.GlobalID - globalIdMultiplier[subCategory]
+          : getID(character.TID, subCategory),
         name: getTextValue(character.TID),
         housingSpace: character.HousingSpace || 0,
         village,
